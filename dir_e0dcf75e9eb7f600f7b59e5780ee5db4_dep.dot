@@ -1,0 +1,16 @@
+digraph "D:/FCAI/GP/Codes/LIB/temp2/cmake-build-debug/CMakeFiles/3.25.2"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_950325d4d7b12730f9625e8f7fdd572d {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="CMakeFiles", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_950325d4d7b12730f9625e8f7fdd572d.html",tooltip=""]
+  subgraph clusterdir_e0dcf75e9eb7f600f7b59e5780ee5db4 {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_e0dcf75e9eb7f600f7b59e5780ee5db4.html",tooltip=""]
+    dir_e0dcf75e9eb7f600f7b59e5780ee5db4 [shape=plaintext, label="3.25.2"];
+  dir_d51a0530249ee761417687250b6a4ac6 [label="CompilerIdC", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_d51a0530249ee761417687250b6a4ac6.html",tooltip=""];
+  }
+  }
+}

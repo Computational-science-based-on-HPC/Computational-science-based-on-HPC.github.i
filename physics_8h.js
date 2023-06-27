@@ -1,0 +1,25 @@
+var physics_8h =
+[
+    [ "damped_os_parallel_execution_time_v1", "physics_8h.html#a76903fd1ad47ad819e06adacaf31f338", null ],
+    [ "damped_os_parallel_execution_time_v2", "physics_8h.html#af847804cd4269d53afe1f31dd8346989", null ],
+    [ "damped_os_parallel_execution_time_v3", "physics_8h.html#a2a6625b92d1305142f43a14823161907", null ],
+    [ "damped_os_parallel_v1", "physics_8h.html#a3ef8d062f421fa33a061264928663a32", null ],
+    [ "damped_os_parallel_v2", "physics_8h.html#ae5db5c69d51d1f9d3cc7cf5c61652f4c", null ],
+    [ "damped_os_serial", "physics_8h.html#ab241b1428ed3a214ae4e160e8a849f22", null ],
+    [ "damped_os_serial_execution", "physics_8h.html#a593eede29f353156c304eb610a26f31a", null ],
+    [ "elastic_pendulum", "physics_8h.html#a250a724765894f40cd52f9b24d5fdc0a", null ],
+    [ "elastic_pendulum_execution", "physics_8h.html#a3d377a7a75f6ddfd0f2739eeb602789b", null ],
+    [ "finalize", "physics_8h.html#a32d626626eee0bc4ade146973f6abb1c", null ],
+    [ "heat_equation_1D_P1_MPI", "physics_8h.html#a19b0b58d1e72c4b85fa1672b14555210", null ],
+    [ "heat_equation_1D_P1_OPENMP", "physics_8h.html#a38c136c435bf6f862127e3cfaccc1a0e", null ],
+    [ "heat_equation_1D_serial", "physics_8h.html#a7390ae11a530bbf722997a1f42f310c2", null ],
+    [ "heat_equation_2D_P1_MPI", "physics_8h.html#a7e56e316652edb30dd742edf0156b912", null ],
+    [ "heat_equation_2D_P1_OPENMP", "physics_8h.html#ada643ccfeeafe3a247c2a3fbf586aed5", null ],
+    [ "heat_equation_2D_serial", "physics_8h.html#a68cd88b12ebc4e2b124e5f5af1a713ad", null ],
+    [ "heat_equation_execution_time_1D_P1_MPI", "physics_8h.html#a836fd752438eca48ff6893e21cec767f", null ],
+    [ "heat_equation_execution_time_1D_P1_OPENMP", "physics_8h.html#ab7206b80d87cfec3cb813f479fd0883a", null ],
+    [ "heat_equation_execution_time_1D_serial", "physics_8h.html#aa095602956542bc2a024ff4da7f7eac5", null ],
+    [ "heat_equation_execution_time_2D_P1_MPI", "physics_8h.html#ab5d9ea90faf46664d2c638d819137667", null ],
+    [ "heat_equation_execution_time_2D_P1_OPENMP", "physics_8h.html#aa7e26d1fc4e8ef65b81a0db162122b40", null ],
+    [ "heat_equation_execution_time_2D_serial", "physics_8h.html#ab02315d90676197d2d723823d13cb4f9", null ]
+];

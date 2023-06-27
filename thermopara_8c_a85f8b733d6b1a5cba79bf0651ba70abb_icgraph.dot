@@ -1,0 +1,11 @@
+digraph "_execution_time_heat_transfer_2D_OPENMP"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="RL";
+  Node1 [id="Node000001",label="_execution_time_heat\l_transfer_2D_OPENMP",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="This is a function that simulates the heat transfer in 2D object, and return the execution time witho..."];
+  Node1 -> Node2 [id="edge1_Node000001_Node000002",dir="back",color="steelblue1",style="solid",tooltip=" "];
+  Node2 [id="Node000002",label="heat_equation_execution\l_time_2D_P1_OPENMP",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$physics_8c.html#aa7e26d1fc4e8ef65b81a0db162122b40",tooltip=" "];
+}
