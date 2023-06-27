@@ -24,7 +24,8 @@
 */
 var NAVTREE =
 [
-  [ "My Project", "index.html", [
+  [ "Computational Science Based on HPC", "index.html", [
+    [ "Physics LIB<a name=\"TOP\"></a>", "index.html", "index" ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "Globals", "globals.html", [

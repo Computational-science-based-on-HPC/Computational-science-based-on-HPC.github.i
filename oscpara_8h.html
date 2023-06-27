@@ -194,7 +194,19 @@ Functions</h2></td></tr>
 <p>function calculate execution time simulating simple harmonic motion (Simple Spring Motion). </p>
 <p>using numerical solution of stepwise precision using equation (e^(-damping_coefficent / (2 * mass)) * t)*sin(wt+fi)), where this equation calculates the displacement of mass on y-axis, this function also calculates the acceleration and velocity in each time step. This function is implemented using MPI, The Number of iteration are divided upon number of processes using MPI. </p><dl class="section warning"><dt>Warning</dt><dd>don't set gravity less than 0. </dd>
 <dd>
-if max_amplitude is greater than the length the max_amplitude automatically set to the length value </dd></dl>
+if max_amplitude is greater than the length the max_amplitude automatically set to the length value </dd>
+<dd>
+mass can't be negative </dd>
+<dd>
+length can't be negative </dd>
+<dd>
+damping_coefficent can't be negative </dd>
+<dd>
+step_size can't be negative </dd>
+<dd>
+stiffness can't be negative </dd>
+<dd>
+time_limit can't be negative </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">max_amplitude</td><td>starting position of the mass where the simulation will start </td></tr>
@@ -305,7 +317,19 @@ if max_amplitude is greater than the length the max_amplitude automatically set 
 <p>This function calculate the execution time of simulating simple harmonic motion (Simple Spring Motion). </p>
 <p>using numerical solution of stepwise precision using equation (e^(-damping_coefficent / (2 * mass)) * t)*sin(wt+fi)), where this equation calculates the displacement of mass on y-axis, this function also calculates the acceleration and velocity in each time step. This function is implemented using MPI and Openmp together, The Number of iteration are divided upon number of processes using MPI, while each processes is calculating its values Openmp used to run the calculations per process in parallel way </p><dl class="section warning"><dt>Warning</dt><dd>don't set gravity less than 0. </dd>
 <dd>
-if max_amplitude is greater than the length the max_amplitude automatically set to the length value </dd></dl>
+if max_amplitude is greater than the length the max_amplitude automatically set to the length value </dd>
+<dd>
+mass can't be negative </dd>
+<dd>
+length can't be negative </dd>
+<dd>
+damping_coefficent can't be negative </dd>
+<dd>
+step_size can't be negative </dd>
+<dd>
+stiffness can't be negative </dd>
+<dd>
+time_limit can't be negative </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">max_amplitude</td><td>starting position of the mass where the simulation will start </td></tr>
@@ -423,7 +447,19 @@ if max_amplitude is greater than the length the max_amplitude automatically set 
 <p>using numerical solution of stepwise precision using equation (e^(-damping_coefficent / (2 * mass)) * t)*sin(wt+fi)), where this equation calculates the displacement of mass on y-axis, this function also calculates the acceleration and velocity in each time step. This function is implemented using Openmp, The for loop is divided upon multiple threads. </p><dl class="section note"><dt>Note</dt><dd>tried using sections pragma ended up applying more overhead in the code so performance decreased </dd></dl>
 <dl class="section warning"><dt>Warning</dt><dd>don't set gravity less than 0. </dd>
 <dd>
-if max_amplitude is greater than the length the max_amplitude automatically set to the length value </dd></dl>
+if max_amplitude is greater than the length the max_amplitude automatically set to the length value </dd>
+<dd>
+mass can't be negative </dd>
+<dd>
+length can't be negative </dd>
+<dd>
+damping_coefficent can't be negative </dd>
+<dd>
+step_size can't be negative </dd>
+<dd>
+stiffness can't be negative </dd>
+<dd>
+time_limit can't be negative </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">max_amplitude</td><td>starting position of the mass where the simulation will start </td></tr>
@@ -535,7 +571,19 @@ if max_amplitude is greater than the length the max_amplitude automatically set 
 <p>This function simulates simple harmonic motion (Simple Spring Motion). </p>
 <p>using numerical solution of stepwise precision using equation (e^(-damping_coefficent / (2 * mass)) * t)*sin(wt+fi)), where this equation calculates the displacement of mass on y-axis, this function also calculates the acceleration and velocity in each time step. This function is implemented using MPI, The Number of iteration are divided upon number of processes using MPI. </p><dl class="section warning"><dt>Warning</dt><dd>don't set gravity less than 0. </dd>
 <dd>
-if max_amplitude is greater than the length the max_amplitude automatically set to the length value </dd></dl>
+if max_amplitude is greater than the length the max_amplitude automatically set to the length value </dd>
+<dd>
+mass can't be negative </dd>
+<dd>
+length can't be negative </dd>
+<dd>
+damping_coefficent can't be negative </dd>
+<dd>
+step_size can't be negative </dd>
+<dd>
+stiffness can't be negative </dd>
+<dd>
+time_limit can't be negative </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">max_amplitude</td><td>starting position of the mass where the simulation will start </td></tr>
@@ -646,7 +694,19 @@ if max_amplitude is greater than the length the max_amplitude automatically set 
 <p>function simulates simple harmonic motion (Simple Spring Motion). </p>
 <p>using numerical solution of stepwise precision using equation (e^(-damping_coefficent / (2 * mass)) * t)*sin(wt+fi)), where this equation calculates the displacement of mass on y-axis, this function also calculates the acceleration and velocity in each time step. This function is implemented using MPI and Openmp together, The Number of iteration are divided upon number of processes using MPI, while each processes is calculating its values Openmp used to run the calculations per process in parallel way </p><dl class="section warning"><dt>Warning</dt><dd>don't set gravity less than 0. </dd>
 <dd>
-if max_amplitude is greater than the length the max_amplitude automatically set to the length value </dd></dl>
+if max_amplitude is greater than the length the max_amplitude automatically set to the length value </dd>
+<dd>
+mass can't be negative </dd>
+<dd>
+length can't be negative </dd>
+<dd>
+damping_coefficent can't be negative </dd>
+<dd>
+step_size can't be negative </dd>
+<dd>
+stiffness can't be negative </dd>
+<dd>
+time_limit can't be negative </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">max_amplitude</td><td>starting position of the mass where the simulation will start </td></tr>
