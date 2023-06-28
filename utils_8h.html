@@ -20,6 +20,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="3.png"/></td>
   <td id="projectalign">
    <div id="projectname">Computational Science Based on HPC
    </div>
@@ -107,32 +108,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a2b57fca272f5770b76a681144aff099b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a2b57fca272f5770b76a681144aff099b">_f2</a> (double x, double y, double dy, double tx, double ty, double k, double m, double b, double r, double g)</td></tr>
 <tr class="memdesc:a2b57fca272f5770b76a681144aff099b"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate second function to solve ode in elastic pendulum  <br /></td></tr>
 <tr class="separator:a2b57fca272f5770b76a681144aff099b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed22184c07363f83d7c48c48106122a8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#aed22184c07363f83d7c48c48106122a8">_number_of_files</a> (char *mainDirectoryPath)</td></tr>
-<tr class="separator:aed22184c07363f83d7c48c48106122a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49a4df8b7209d44d0170644a86cb480a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#a49a4df8b7209d44d0170644a86cb480a">_directory_create</a> (char *mainDirectoryPath)</td></tr>
-<tr class="separator:a49a4df8b7209d44d0170644a86cb480a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2bfe71c9c5149da5f639c65cf4562b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#af2bfe71c9c5149da5f639c65cf4562b4">printmemsize</a> (char *str, unsigned long ramsize)</td></tr>
+<tr class="separator:af2bfe71c9c5149da5f639c65cf4562b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1a95d0560709c637a9cb529110e539c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#aa1a95d0560709c637a9cb529110e539c">printmem</a> ()</td></tr>
+<tr class="memdesc:aa1a95d0560709c637a9cb529110e539c"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function prints memory details for the computer  <br /></td></tr>
+<tr class="separator:aa1a95d0560709c637a9cb529110e539c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad583f228d61d7d712761cc04b3821e97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8h.html#ad583f228d61d7d712761cc04b3821e97">cpu_inf</a> ()</td></tr>
+<tr class="memdesc:ad583f228d61d7d712761cc04b3821e97"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function prints the cpu info for the computer  <br /></td></tr>
+<tr class="separator:ad583f228d61d7d712761cc04b3821e97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This file contains utility functions used by oscillations simulation to help in calculations. </p>
 </div><h2 class="groupheader">Function Documentation</h2>
-<a id="a49a4df8b7209d44d0170644a86cb480a" name="a49a4df8b7209d44d0170644a86cb480a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49a4df8b7209d44d0170644a86cb480a">&#9670;&#160;</a></span>_directory_create()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int _directory_create </td>
-          <td>(</td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>mainDirectoryPath</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a8b1620365d3de409f889374462d3cf53" name="a8b1620365d3de409f889374462d3cf53"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8b1620365d3de409f889374462d3cf53">&#9670;&#160;</a></span>_dx()</h2>
 
@@ -406,24 +393,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aed22184c07363f83d7c48c48106122a8" name="aed22184c07363f83d7c48c48106122a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed22184c07363f83d7c48c48106122a8">&#9670;&#160;</a></span>_number_of_files()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int _number_of_files </td>
-          <td>(</td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>mainDirectoryPath</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ad976eead09c5a57066d65c7f8d81aff4" name="ad976eead09c5a57066d65c7f8d81aff4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad976eead09c5a57066d65c7f8d81aff4">&#9670;&#160;</a></span>_round()</h2>
 
@@ -549,6 +518,74 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>1 if all are valid, 0 if [mass &lt; 0 || k &lt; 0 || time_limit &lt;= 0 || step_size &lt; 0 || length &lt;= 0 || gravity &lt;= 0 || damping_coefficent &lt; 0], and -1 if max_length &gt; length </dd></dl>
+
+</div>
+</div>
+<a id="ad583f228d61d7d712761cc04b3821e97" name="ad583f228d61d7d712761cc04b3821e97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad583f228d61d7d712761cc04b3821e97">&#9670;&#160;</a></span>cpu_inf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cpu_inf </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>this function prints the cpu info for the computer </p>
+<dl class="section return"><dt>Returns</dt><dd>int </dd></dl>
+
+</div>
+</div>
+<a id="aa1a95d0560709c637a9cb529110e539c" name="aa1a95d0560709c637a9cb529110e539c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1a95d0560709c637a9cb529110e539c">&#9670;&#160;</a></span>printmem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int printmem </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>this function prints memory details for the computer </p>
+<dl class="section return"><dt>Returns</dt><dd>int </dd></dl>
+
+</div>
+</div>
+<a id="af2bfe71c9c5149da5f639c65cf4562b4" name="af2bfe71c9c5149da5f639c65cf4562b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2bfe71c9c5149da5f639c65cf4562b4">&#9670;&#160;</a></span>printmemsize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printmemsize </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned long&#160;</td>
+          <td class="paramname"><em>ramsize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
