@@ -77,47 +77,30 @@ $(function() {
   <div class="headertitle"><div class="title">thermoutils.h</div></div>
 </div><!--header-->
 <div class="contents">
-<a href="thermoutils_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#ifndef PHYSICS_THERMOUTILS_H</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#define PHYSICS_THERMOUTILS_H</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno"><a class="line" href="thermoutils_8h.html#ae1d1ec9482079231e898236e2b23c9ba">    5</a></span><span class="preprocessor">#define ll long long</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">extern</span> <a class="code hl_define" href="thermoutils_8h.html#ae1d1ec9482079231e898236e2b23c9ba">ll</a></div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="thermoutils_8h.html#a71ee95bc2b4cf858eedf6d6ad2fb1524">    8</a></span><a class="code hl_function" href="thermoutils_8h.html#a71ee95bc2b4cf858eedf6d6ad2fb1524">_cal_num_time</a>(<span class="keywordtype">double</span> time_step, <span class="keywordtype">double</span> time_limit);</div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">extern</span> <a class="code hl_define" href="thermoutils_8h.html#ae1d1ec9482079231e898236e2b23c9ba">ll</a></div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="thermoutils_8h.html#a1704ec8884af2b6e82ed14c08a0eaea9">   11</a></span><a class="code hl_function" href="thermoutils_8h.html#a1704ec8884af2b6e82ed14c08a0eaea9">_cal_num_space</a>(<span class="keywordtype">double</span> length, <span class="keywordtype">double</span> space_step);</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<a href="thermoutils_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef PHYSICS_THERMOUTILS_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define PHYSICS_THERMOUTILS_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno"><a class="line" href="thermoutils_8h.html#ae1d1ec9482079231e898236e2b23c9ba">    3</a></span><span class="preprocessor">#define ll long long</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;stdio.h&gt;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">extern</span> <a class="code hl_define" href="thermoutils_8h.html#ae1d1ec9482079231e898236e2b23c9ba">ll</a></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="thermoutils_8h.html#a71ee95bc2b4cf858eedf6d6ad2fb1524">    7</a></span><a class="code hl_function" href="thermoutils_8h.html#a71ee95bc2b4cf858eedf6d6ad2fb1524">_cal_num_time</a>(<span class="keywordtype">double</span> time_step, <span class="keywordtype">double</span> time_limit);</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">extern</span> <a class="code hl_define" href="thermoutils_8h.html#ae1d1ec9482079231e898236e2b23c9ba">ll</a></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="thermoutils_8h.html#a1704ec8884af2b6e82ed14c08a0eaea9">   10</a></span><a class="code hl_function" href="thermoutils_8h.html#a1704ec8884af2b6e82ed14c08a0eaea9">_cal_num_space</a>(<span class="keywordtype">double</span> length, <span class="keywordtype">double</span> space_step);</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="thermoutils_8h.html#a497ede07b79aa9750736bc24452e1b53">   12</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="thermoutils_8h.html#a497ede07b79aa9750736bc24452e1b53">printmem</a>(FILE* fileName);</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">// extern void</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment">// _cal_num_space_2D(struct TimeParam* time_param, struct SpaceParam2D* space_param, ll* numSpacePointX, ll* numSpacePointY);</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="thermoutils_8h.html#aacb74718de409aec9ebf40e51d5c2497">   14</a></span><span class="keywordtype">void</span> <a class="code hl_function" href="thermoutils_8h.html#aacb74718de409aec9ebf40e51d5c2497">printmemsize</a>(FILE* fileName, <span class="keywordtype">char</span> *str, <span class="keywordtype">unsigned</span> <span class="keywordtype">long</span> ramsize);</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="thermoutils_8h.html#ac9f0c2840c0bda406d1381e1b643b22a">   16</a></span><span class="keywordtype">int</span> <a class="code hl_function" href="thermoutils_8h.html#ac9f0c2840c0bda406d1381e1b643b22a">cpu_inf</a>(FILE* fileName);</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="comment">// struct TimeParam</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="comment">// {</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="comment">//     double delta_t, t_lim;</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span><span class="comment">// };</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span><span class="comment">// struct SpaceParam</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="comment">// {</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="comment">//     double length, diffusion, delta_x;</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span><span class="comment">// };</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span><span class="comment">// struct SpaceParam2D</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span><span class="comment">// {</span></div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="comment">//     double length, diffusion, delta_x, width, delta_y;</span></div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="comment">// };</span></div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="comment">// struct TempParam</span></div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="comment">// {</span></div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="comment">//     double tempUp, tempDown, tempLeft, tempRight;</span></div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span><span class="comment">// };</span></div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span><span class="preprocessor">#endif </span><span class="comment">//PHYSICS_THERMOUTILS_H</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span><span class="preprocessor">#endif </span><span class="comment">//PHYSICS_THERMOUTILS_H</span></div>
 <div class="ttc" id="athermoutils_8h_html_a1704ec8884af2b6e82ed14c08a0eaea9"><div class="ttname"><a href="thermoutils_8h.html#a1704ec8884af2b6e82ed14c08a0eaea9">_cal_num_space</a></div><div class="ttdeci">ll _cal_num_space(double length, double space_step)</div></div>
+<div class="ttc" id="athermoutils_8h_html_a497ede07b79aa9750736bc24452e1b53"><div class="ttname"><a href="thermoutils_8h.html#a497ede07b79aa9750736bc24452e1b53">printmem</a></div><div class="ttdeci">int printmem(FILE *fileName)</div></div>
 <div class="ttc" id="athermoutils_8h_html_a71ee95bc2b4cf858eedf6d6ad2fb1524"><div class="ttname"><a href="thermoutils_8h.html#a71ee95bc2b4cf858eedf6d6ad2fb1524">_cal_num_time</a></div><div class="ttdeci">ll _cal_num_time(double time_step, double time_limit)</div></div>
-<div class="ttc" id="athermoutils_8h_html_ae1d1ec9482079231e898236e2b23c9ba"><div class="ttname"><a href="thermoutils_8h.html#ae1d1ec9482079231e898236e2b23c9ba">ll</a></div><div class="ttdeci">#define ll</div><div class="ttdef"><b>Definition</b> thermoutils.h:5</div></div>
+<div class="ttc" id="athermoutils_8h_html_aacb74718de409aec9ebf40e51d5c2497"><div class="ttname"><a href="thermoutils_8h.html#aacb74718de409aec9ebf40e51d5c2497">printmemsize</a></div><div class="ttdeci">void printmemsize(FILE *fileName, char *str, unsigned long ramsize)</div></div>
+<div class="ttc" id="athermoutils_8h_html_ac9f0c2840c0bda406d1381e1b643b22a"><div class="ttname"><a href="thermoutils_8h.html#ac9f0c2840c0bda406d1381e1b643b22a">cpu_inf</a></div><div class="ttdeci">int cpu_inf(FILE *fileName)</div></div>
+<div class="ttc" id="athermoutils_8h_html_ae1d1ec9482079231e898236e2b23c9ba"><div class="ttname"><a href="thermoutils_8h.html#ae1d1ec9482079231e898236e2b23c9ba">ll</a></div><div class="ttdeci">#define ll</div><div class="ttdef"><b>Definition</b> thermoutils.h:3</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <style>
   body {
@@ -162,7 +145,8 @@ $(function() {
       <div class="project-details">
         <h3>Graduation Project</h3>
         <h4>Computational Science based on HPC</h4>
-        <p>FCAI Cairo University, Computer Science Section.<br>Supervised by: DR.Ahmed Shawky</p>
+        <p>FCAI Cairo University, Computer Science Section.</p>
+		<p>Supervised by: DR.Ahmed Shawky</p>
       </div>
       <div class="contributors">
         <h3>Contributed by:</h3>
