@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Computational Science Based on HPC: D:/FCAI/GP/Codes/LIB/Physics_LIB/include/physics.h File Reference</title>
+<title>Computational Science Based on HPC: D:/FCAI/GP/Codes/LIB/lib/Physics_LIB/include/physics.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -70,7 +70,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_1cb414fe04fab01e4a0bd3cda6e73191.html">Physics_LIB</a></li><li class="navelem"><a class="el" href="dir_ad3eeb50dce147622cb6a7ec623059c1.html">include</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_787acaf64017d5641c64393bd64682c4.html">Physics_LIB</a></li><li class="navelem"><a class="el" href="dir_d321b0b895e1a727907b7602d8e7d9be.html">include</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -96,8 +96,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ae5db5c69d51d1f9d3cc7cf5c61652f4c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#ae5db5c69d51d1f9d3cc7cf5c61652f4c">damped_os_parallel_v2</a> (double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files)</td></tr>
 <tr class="memdesc:ae5db5c69d51d1f9d3cc7cf5c61652f4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function simulates simple harmonic motion (Simple Spring Motion).  <br /></td></tr>
 <tr class="separator:ae5db5c69d51d1f9d3cc7cf5c61652f4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a890d7d3bf996e131a24bf8813f7831f4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#a890d7d3bf996e131a24bf8813f7831f4">damped_os_parallel_v3</a> (double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files, int number_of_threads)</td></tr>
-<tr class="separator:a890d7d3bf996e131a24bf8813f7831f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a250a724765894f40cd52f9b24d5fdc0a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#a250a724765894f40cd52f9b24d5fdc0a">elastic_pendulum</a> (double r, double length, double mass, double gravity, double k, double Ao, double Xo, double Yo, double Vo, double time_limit, double step_size, double damping_coefficent, int number_of_files)</td></tr>
 <tr class="memdesc:a250a724765894f40cd52f9b24d5fdc0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">function simulates the motion of (elastic pendulum/2D-spring/spring pendulum) system.  <br /></td></tr>
 <tr class="separator:a250a724765894f40cd52f9b24d5fdc0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -116,30 +114,42 @@ Functions</h2></td></tr>
 <tr class="memitem:a3d377a7a75f6ddfd0f2739eeb602789b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#a3d377a7a75f6ddfd0f2739eeb602789b">elastic_pendulum_execution</a> (double r, double length, double mass, double gravity, double k, double Ao, double Xo, double Yo, double Vo, double time_limit, double step_size, double damping_coefficent, int number_of_files)</td></tr>
 <tr class="memdesc:a3d377a7a75f6ddfd0f2739eeb602789b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function calculates the execution time of simulating the motion of (elastic pendulum/2D-spring/spring pendulum) system.  <br /></td></tr>
 <tr class="separator:a3d377a7a75f6ddfd0f2739eeb602789b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19b0b58d1e72c4b85fa1672b14555210"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#a19b0b58d1e72c4b85fa1672b14555210">heat_equation_1D_P1_MPI</a> (double time_step, double time_limit, double space_step, int precision)</td></tr>
-<tr class="separator:a19b0b58d1e72c4b85fa1672b14555210"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38c136c435bf6f862127e3cfaccc1a0e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#a38c136c435bf6f862127e3cfaccc1a0e">heat_equation_1D_P1_OPENMP</a> (double time_step, double time_limit, double space_step, int precision)</td></tr>
-<tr class="separator:a38c136c435bf6f862127e3cfaccc1a0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e56e316652edb30dd742edf0156b912"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#a7e56e316652edb30dd742edf0156b912">heat_equation_2D_P1_MPI</a> (double time_step, double time_limit, double spaceX_step, double spaceY_step, int precision)</td></tr>
-<tr class="separator:a7e56e316652edb30dd742edf0156b912"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada643ccfeeafe3a247c2a3fbf586aed5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#ada643ccfeeafe3a247c2a3fbf586aed5">heat_equation_2D_P1_OPENMP</a> (double time_step, double time_limit, double spaceX_step, double spaceY_step, int precision)</td></tr>
-<tr class="separator:ada643ccfeeafe3a247c2a3fbf586aed5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7390ae11a530bbf722997a1f42f310c2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#a7390ae11a530bbf722997a1f42f310c2">heat_equation_1D_serial</a> (double time_step, double time_limit, double space_step, int precision)</td></tr>
-<tr class="separator:a7390ae11a530bbf722997a1f42f310c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68cd88b12ebc4e2b124e5f5af1a713ad"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#a68cd88b12ebc4e2b124e5f5af1a713ad">heat_equation_2D_serial</a> (double time_step, double time_limit, double spaceX_step, double spaceY_step, int precision)</td></tr>
-<tr class="separator:a68cd88b12ebc4e2b124e5f5af1a713ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a836fd752438eca48ff6893e21cec767f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#a836fd752438eca48ff6893e21cec767f">heat_equation_execution_time_1D_P1_MPI</a> (double time_step, double time_limit, double space_step, int precision)</td></tr>
-<tr class="separator:a836fd752438eca48ff6893e21cec767f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7206b80d87cfec3cb813f479fd0883a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#ab7206b80d87cfec3cb813f479fd0883a">heat_equation_execution_time_1D_P1_OPENMP</a> (double time_step, double time_limit, double space_step, int precision)</td></tr>
-<tr class="separator:ab7206b80d87cfec3cb813f479fd0883a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5d9ea90faf46664d2c638d819137667"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#ab5d9ea90faf46664d2c638d819137667">heat_equation_execution_time_2D_P1_MPI</a> (double time_step, double time_limit, double spaceX_step, double spaceY_step, int precision)</td></tr>
-<tr class="separator:ab5d9ea90faf46664d2c638d819137667"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7e26d1fc4e8ef65b81a0db162122b40"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#aa7e26d1fc4e8ef65b81a0db162122b40">heat_equation_execution_time_2D_P1_OPENMP</a> (double time_step, double time_limit, double spaceX_step, double spaceY_step, int precision)</td></tr>
-<tr class="separator:aa7e26d1fc4e8ef65b81a0db162122b40"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa095602956542bc2a024ff4da7f7eac5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#aa095602956542bc2a024ff4da7f7eac5">heat_equation_execution_time_1D_serial</a> (double time_step, double time_limit, double space_step, int precision)</td></tr>
-<tr class="separator:aa095602956542bc2a024ff4da7f7eac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab02315d90676197d2d723823d13cb4f9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#ab02315d90676197d2d723823d13cb4f9">heat_equation_execution_time_2D_serial</a> (double time_step, double time_limit, double spaceX_step, double spaceY_step, int precision)</td></tr>
-<tr class="separator:ab02315d90676197d2d723823d13cb4f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72581147c65395a93fe41e02e6751998"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#a72581147c65395a93fe41e02e6751998">heat_equation_1D_P1_MPI</a> (double time_step, double time_limit, double space_step, long long precision)</td></tr>
+<tr class="memdesc:a72581147c65395a93fe41e02e6751998"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a function that simulates the heat transfer in 1D object as wire, and each core writes the result to a separate file.  <br /></td></tr>
+<tr class="separator:a72581147c65395a93fe41e02e6751998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f04da1fcf214753beb2f6376ebaf277"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#a5f04da1fcf214753beb2f6376ebaf277">heat_equation_1D_P1_OPENMP</a> (double time_step, double time_limit, double space_step, long long precision)</td></tr>
+<tr class="memdesc:a5f04da1fcf214753beb2f6376ebaf277"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a function that simulates the heat transfer in 1D object as wire, and writes the result to a file.  <br /></td></tr>
+<tr class="separator:a5f04da1fcf214753beb2f6376ebaf277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75ed163d3845df93b7780b0231f631cf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#a75ed163d3845df93b7780b0231f631cf">heat_equation_2D_P1_MPI</a> (double time_step, double time_limit, double spaceX_step, double spaceY_step, long long precision)</td></tr>
+<tr class="memdesc:a75ed163d3845df93b7780b0231f631cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a function that simulates the heat transfer in 2D object, and each core writes the result to a separate file.  <br /></td></tr>
+<tr class="separator:a75ed163d3845df93b7780b0231f631cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa518ce42953bc0c7e97e1b8a398d708c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#aa518ce42953bc0c7e97e1b8a398d708c">heat_equation_2D_P1_OPENMP</a> (double time_step, double time_limit, double spaceX_step, double spaceY_step, long long precision)</td></tr>
+<tr class="memdesc:aa518ce42953bc0c7e97e1b8a398d708c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a function that simulates the heat transfer in 2D object, and each core writes the result to a separate file.  <br /></td></tr>
+<tr class="separator:aa518ce42953bc0c7e97e1b8a398d708c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa805fb790df29ef7dd4be6e5aa9a154b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#aa805fb790df29ef7dd4be6e5aa9a154b">heat_equation_1D_serial</a> (double time_step, double time_limit, double space_step, long long precision)</td></tr>
+<tr class="memdesc:aa805fb790df29ef7dd4be6e5aa9a154b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a function that simulates the heat transfer in 1D object as wire, and write the result to a file.  <br /></td></tr>
+<tr class="separator:aa805fb790df29ef7dd4be6e5aa9a154b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0d56d3d53de808eb8b42609bf65e8af"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#ac0d56d3d53de808eb8b42609bf65e8af">heat_equation_2D_serial</a> (double time_step, double time_limit, double spaceX_step, double spaceY_step, long long precision)</td></tr>
+<tr class="memdesc:ac0d56d3d53de808eb8b42609bf65e8af"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a function that simulates the heat transfer in 2D object, and write the result to a file.  <br /></td></tr>
+<tr class="separator:ac0d56d3d53de808eb8b42609bf65e8af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c92f4828cb34dbd6fe9b8a2f02a65b7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#a6c92f4828cb34dbd6fe9b8a2f02a65b7">heat_equation_execution_time_1D_P1_MPI</a> (double time_step, double time_limit, double space_step, long long precision)</td></tr>
+<tr class="memdesc:a6c92f4828cb34dbd6fe9b8a2f02a65b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a function that simulates the heat transfer in 1D object as wire, and return the execution time without I/O.  <br /></td></tr>
+<tr class="separator:a6c92f4828cb34dbd6fe9b8a2f02a65b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb18b7a0a2c4c947357ffe8c443c7d59"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#afb18b7a0a2c4c947357ffe8c443c7d59">heat_equation_execution_time_1D_P1_OPENMP</a> (double time_step, double time_limit, double space_step, long long precision)</td></tr>
+<tr class="memdesc:afb18b7a0a2c4c947357ffe8c443c7d59"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a function that simulates the heat transfer in 1D object as wire, and return the execution time without I/O.  <br /></td></tr>
+<tr class="separator:afb18b7a0a2c4c947357ffe8c443c7d59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1f6ddbe4dda8fb7ed84b6fa83512c0b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#ae1f6ddbe4dda8fb7ed84b6fa83512c0b">heat_equation_execution_time_2D_P1_MPI</a> (double time_step, double time_limit, double spaceX_step, double spaceY_step, long long precision)</td></tr>
+<tr class="memdesc:ae1f6ddbe4dda8fb7ed84b6fa83512c0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a function that simulates the heat transfer in 2D object, and return the execution time without I/O.  <br /></td></tr>
+<tr class="separator:ae1f6ddbe4dda8fb7ed84b6fa83512c0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92e42d46d00d387ad2d0af5fa440a004"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#a92e42d46d00d387ad2d0af5fa440a004">heat_equation_execution_time_2D_P1_OPENMP</a> (double time_step, double time_limit, double spaceX_step, double spaceY_step, long long precision)</td></tr>
+<tr class="memdesc:a92e42d46d00d387ad2d0af5fa440a004"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a function that simulates the heat transfer in 2D object, and return the execution time without I/O.  <br /></td></tr>
+<tr class="separator:a92e42d46d00d387ad2d0af5fa440a004"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bc0d919ddc674edf4adf1e615f03972"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#a2bc0d919ddc674edf4adf1e615f03972">heat_equation_execution_time_1D_serial</a> (double time_step, double time_limit, double space_step, long long precision)</td></tr>
+<tr class="memdesc:a2bc0d919ddc674edf4adf1e615f03972"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a function that simulates the heat transfer in 1D object as wire, and return the execution time without I/O.  <br /></td></tr>
+<tr class="separator:a2bc0d919ddc674edf4adf1e615f03972"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6008837e283ef1ecb77c66af659b5ddb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#a6008837e283ef1ecb77c66af659b5ddb">heat_equation_execution_time_2D_serial</a> (double time_step, double time_limit, double spaceX_step, double spaceY_step, long long precision)</td></tr>
+<tr class="memdesc:a6008837e283ef1ecb77c66af659b5ddb"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a function that simulates the heat transfer in 2D object, and return the execution time without I/O.  <br /></td></tr>
+<tr class="separator:a6008837e283ef1ecb77c66af659b5ddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32d626626eee0bc4ade146973f6abb1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#a32d626626eee0bc4ade146973f6abb1c">finalize</a> ()</td></tr>
 <tr class="memdesc:a32d626626eee0bc4ade146973f6abb1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">finalize the MPI and de-allocate the resources.  <br /></td></tr>
 <tr class="separator:a32d626626eee0bc4ade146973f6abb1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -738,100 +748,6 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a890d7d3bf996e131a24bf8813f7831f4" name="a890d7d3bf996e131a24bf8813f7831f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a890d7d3bf996e131a24bf8813f7831f4">&#9670;&#160;</a></span>damped_os_parallel_v3()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">double damped_os_parallel_v3 </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>max_amplitude</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>length</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>mass</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>gravity</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>k</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>Ao</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>Vo</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>FI</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>time_limit</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>step_size</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>damping_coefficent</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>number_of_files</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>number_of_threads</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ab241b1428ed3a214ae4e160e8a849f22" name="ab241b1428ed3a214ae4e160e8a849f22"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab241b1428ed3a214ae4e160e8a849f22">&#9670;&#160;</a></span>damped_os_serial()</h2>
 
@@ -1342,8 +1258,8 @@ Functions</h2></td></tr>
 </div><!-- fragment --> 
 </div>
 </div>
-<a id="a19b0b58d1e72c4b85fa1672b14555210" name="a19b0b58d1e72c4b85fa1672b14555210"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19b0b58d1e72c4b85fa1672b14555210">&#9670;&#160;</a></span>heat_equation_1D_P1_MPI()</h2>
+<a id="a72581147c65395a93fe41e02e6751998" name="a72581147c65395a93fe41e02e6751998"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72581147c65395a93fe41e02e6751998">&#9670;&#160;</a></span>heat_equation_1D_P1_MPI()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1369,7 +1285,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">long long&#160;</td>
           <td class="paramname"><em>precision</em>&#160;</td>
         </tr>
         <tr>
@@ -1380,10 +1296,30 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>This is a function that simulates the heat transfer in 1D object as wire, and each core writes the result to a separate file. </p>
+<p>In this simulation, we simulate heat propagation in 1D object as wire and the change in its tempreture over time using fourier transform. Then we parallelize the function using MPI, as we divide the object into equal parts and each core calculates the temperature of its part.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time_step</td><td>The rate of change of the time. </td></tr>
+    <tr><td class="paramname">time_limit</td><td>The time that we want to measure the temperature of the object after. </td></tr>
+    <tr><td class="paramname">space_step</td><td>The rate of change of the space. </td></tr>
+    <tr><td class="paramname">precision</td><td>The number of vectors we use in the calculations. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>0 if there is no error happened interrupted the calculations, each core writes the output to text file named simulate_heat_transfer_1D_MPI_"core num"_ + current time, the row represent the time, and the column represent the temperature at this point at that time.</dd></dl>
+<p>Example: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="physics_8h.html">physics.h</a>&quot;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> main(<span class="keywordtype">void</span>) {</div>
+<div class="line">    <a class="code hl_function" href="physics_8h.html#a72581147c65395a93fe41e02e6751998">heat_equation_1D_P1_MPI</a>(0.01, 0.5, 0.05, 50);</div>
+<div class="line">    <span class="keywordflow">return</span> 0;</div>
+<div class="line">}</div>
+<div class="ttc" id="aphysics_8h_html_a72581147c65395a93fe41e02e6751998"><div class="ttname"><a href="physics_8h.html#a72581147c65395a93fe41e02e6751998">heat_equation_1D_P1_MPI</a></div><div class="ttdeci">int heat_equation_1D_P1_MPI(double time_step, double time_limit, double space_step, long long precision)</div><div class="ttdoc">This is a function that simulates the heat transfer in 1D object as wire, and each core writes the re...</div></div>
+</div><!-- fragment --> 
 </div>
 </div>
-<a id="a38c136c435bf6f862127e3cfaccc1a0e" name="a38c136c435bf6f862127e3cfaccc1a0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38c136c435bf6f862127e3cfaccc1a0e">&#9670;&#160;</a></span>heat_equation_1D_P1_OPENMP()</h2>
+<a id="a5f04da1fcf214753beb2f6376ebaf277" name="a5f04da1fcf214753beb2f6376ebaf277"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f04da1fcf214753beb2f6376ebaf277">&#9670;&#160;</a></span>heat_equation_1D_P1_OPENMP()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1409,7 +1345,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">long long&#160;</td>
           <td class="paramname"><em>precision</em>&#160;</td>
         </tr>
         <tr>
@@ -1420,10 +1356,30 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>This is a function that simulates the heat transfer in 1D object as wire, and writes the result to a file. </p>
+<p>In this simulation, we simulate heat propagation in 1D object as wire and the change in its tempreture over time using fourier transform. Then, we parallelize the function using OPENMP, as we provide specific number of threads and make the iterations of the loop are divided into equal-sized chunks, and each chunk is assigned to a thread. Then, we write the result to a file.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time_step</td><td>The rate of change of the time. </td></tr>
+    <tr><td class="paramname">time_limit</td><td>The time that we want to measure the temperature of the object after. </td></tr>
+    <tr><td class="paramname">space_step</td><td>The rate of change of the space. </td></tr>
+    <tr><td class="paramname">precision</td><td>The number of vectors we use in the calculations. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>0 if there is no error happened interrupted the calculations, writes the output to text file named simulate_heat_transfer_1D_OPENMP_ + current time, the row represent the time, and the column represent the temperature at this point at that time.</dd></dl>
+<p>Example: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="physics_8h.html">physics.h</a>&quot;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> main(<span class="keywordtype">void</span>) {</div>
+<div class="line">    <a class="code hl_function" href="physics_8h.html#a5f04da1fcf214753beb2f6376ebaf277">heat_equation_1D_P1_OPENMP</a>(0.01, 0.5, 0.05, 50);</div>
+<div class="line">    <span class="keywordflow">return</span> 0;</div>
+<div class="line">}</div>
+<div class="ttc" id="aphysics_8h_html_a5f04da1fcf214753beb2f6376ebaf277"><div class="ttname"><a href="physics_8h.html#a5f04da1fcf214753beb2f6376ebaf277">heat_equation_1D_P1_OPENMP</a></div><div class="ttdeci">int heat_equation_1D_P1_OPENMP(double time_step, double time_limit, double space_step, long long precision)</div><div class="ttdoc">This is a function that simulates the heat transfer in 1D object as wire, and writes the result to a ...</div></div>
+</div><!-- fragment --> 
 </div>
 </div>
-<a id="a7390ae11a530bbf722997a1f42f310c2" name="a7390ae11a530bbf722997a1f42f310c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7390ae11a530bbf722997a1f42f310c2">&#9670;&#160;</a></span>heat_equation_1D_serial()</h2>
+<a id="aa805fb790df29ef7dd4be6e5aa9a154b" name="aa805fb790df29ef7dd4be6e5aa9a154b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa805fb790df29ef7dd4be6e5aa9a154b">&#9670;&#160;</a></span>heat_equation_1D_serial()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1449,7 +1405,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">long long&#160;</td>
           <td class="paramname"><em>precision</em>&#160;</td>
         </tr>
         <tr>
@@ -1460,10 +1416,30 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>This is a function that simulates the heat transfer in 1D object as wire, and write the result to a file. </p>
+<p>In this simulation, we simulate heat propagation in 1D object as wire and the change in its tempreture over time using fourier transform.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time_step</td><td>The rate of change of the time. </td></tr>
+    <tr><td class="paramname">time_limit</td><td>The time that we want to measure the temperature of the object after. </td></tr>
+    <tr><td class="paramname">space_step</td><td>The rate of change of the space. </td></tr>
+    <tr><td class="paramname">precision</td><td>The number of vectors we use in the calculations. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>0 if there is no error happened interrupted the calculations, and write the output to text file named simulate_heat_transfer_1D_serial_ + current time, the row represent the time, and the column represent the temperature at this point at that time. Example: <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="physics_8h.html">physics.h</a>&quot;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> main(<span class="keywordtype">void</span>) {</div>
+<div class="line">    <a class="code hl_function" href="physics_8h.html#aa805fb790df29ef7dd4be6e5aa9a154b">heat_equation_1D_serial</a>(0.01, 0.5, 0.05,50);</div>
+<div class="line">    <span class="keywordflow">return</span> 0;</div>
+<div class="line">}</div>
+<div class="ttc" id="aphysics_8h_html_aa805fb790df29ef7dd4be6e5aa9a154b"><div class="ttname"><a href="physics_8h.html#aa805fb790df29ef7dd4be6e5aa9a154b">heat_equation_1D_serial</a></div><div class="ttdeci">int heat_equation_1D_serial(double time_step, double time_limit, double space_step, long long precision)</div><div class="ttdoc">This is a function that simulates the heat transfer in 1D object as wire, and write the result to a f...</div></div>
+</div><!-- fragment --> </dd></dl>
+
 </div>
 </div>
-<a id="a7e56e316652edb30dd742edf0156b912" name="a7e56e316652edb30dd742edf0156b912"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e56e316652edb30dd742edf0156b912">&#9670;&#160;</a></span>heat_equation_2D_P1_MPI()</h2>
+<a id="a75ed163d3845df93b7780b0231f631cf" name="a75ed163d3845df93b7780b0231f631cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75ed163d3845df93b7780b0231f631cf">&#9670;&#160;</a></span>heat_equation_2D_P1_MPI()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1495,7 +1471,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">long long&#160;</td>
           <td class="paramname"><em>precision</em>&#160;</td>
         </tr>
         <tr>
@@ -1506,10 +1482,31 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>This is a function that simulates the heat transfer in 2D object, and each core writes the result to a separate file. </p>
+<p>In this simulation, we simulate heat propagation in 2D object as square or rectangle and the change in its tempreture over time using fourier transform. Then we parallelize the function using MPI, as we divide the object into equal parts and each core calculates the temperature of its part.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time_step</td><td>The rate of change of the time. </td></tr>
+    <tr><td class="paramname">time_limit</td><td>The time that we want to measure the temperature of the object after. </td></tr>
+    <tr><td class="paramname">space_step_x</td><td>The rate of change of the space in x-axis. </td></tr>
+    <tr><td class="paramname">space_step_y</td><td>The rate of change of the space in y-axis. </td></tr>
+    <tr><td class="paramname">precision</td><td>The number of vectors we use in the calculations. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>0 if there is no error happened interrupted the calculations, and write the output to text file named simulate_heat_transfer_2D_MPI_"core num"_ + current time, the output file contains paragraphs each one represent the time slot, each row represent the temperature at this point of the 2D object on x-axis (length), and the column represent the temperature at this point at that time on y-axis (width). The number of rows in each paragraph (time slot) equals length* space_step_x, and the number of columns equals width* space_step_y.</dd></dl>
+<p>Example: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="physics_8h.html">physics.h</a>&quot;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> main(<span class="keywordtype">void</span>) {</div>
+<div class="line">    <a class="code hl_function" href="physics_8h.html#a75ed163d3845df93b7780b0231f631cf">heat_equation_2D_P1_MPI</a>(0.1, 5, 0.1, 0.1, 50);</div>
+<div class="line">    <span class="keywordflow">return</span> 0;</div>
+<div class="line">}</div>
+<div class="ttc" id="aphysics_8h_html_a75ed163d3845df93b7780b0231f631cf"><div class="ttname"><a href="physics_8h.html#a75ed163d3845df93b7780b0231f631cf">heat_equation_2D_P1_MPI</a></div><div class="ttdeci">int heat_equation_2D_P1_MPI(double time_step, double time_limit, double spaceX_step, double spaceY_step, long long precision)</div><div class="ttdoc">This is a function that simulates the heat transfer in 2D object, and each core writes the result to ...</div></div>
+</div><!-- fragment --> 
 </div>
 </div>
-<a id="ada643ccfeeafe3a247c2a3fbf586aed5" name="ada643ccfeeafe3a247c2a3fbf586aed5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada643ccfeeafe3a247c2a3fbf586aed5">&#9670;&#160;</a></span>heat_equation_2D_P1_OPENMP()</h2>
+<a id="aa518ce42953bc0c7e97e1b8a398d708c" name="aa518ce42953bc0c7e97e1b8a398d708c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa518ce42953bc0c7e97e1b8a398d708c">&#9670;&#160;</a></span>heat_equation_2D_P1_OPENMP()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1541,7 +1538,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">long long&#160;</td>
           <td class="paramname"><em>precision</em>&#160;</td>
         </tr>
         <tr>
@@ -1552,10 +1549,31 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>This is a function that simulates the heat transfer in 2D object, and each core writes the result to a separate file. </p>
+<p>In this simulation, we simulate heat propagation in 2D object as square or rectangle and the change in its tempreture over time using fourier transform. Then, we parallelize the function using OPENMP, as we provide specific number of threads and make the iterations of the loop are divided into equal-sized chunks, and each chunk is assigned to a thread. Then, we write the result to a file.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time_step</td><td>The rate of change of the time. </td></tr>
+    <tr><td class="paramname">time_limit</td><td>The time that we want to measure the temperature of the object after. </td></tr>
+    <tr><td class="paramname">space_step_x</td><td>The rate of change of the space in x-axis. </td></tr>
+    <tr><td class="paramname">space_step_y</td><td>The rate of change of the space in y-axis. </td></tr>
+    <tr><td class="paramname">precision</td><td>The number of vectors we use in the calculations. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>0 if there is no error happened interrupted the calculations, and write the output to text file named simulate_heat_transfer_2D_OPENMP_ + current time, the output file contains paragraphs each one represent the time slot, each row represent the temperature at this point of the 2D object on x-axis (length), and the column represent the temperature at this point at that time on y-axis (width). The number of rows in each paragraph (time slot) equals length* space_step_x, and the number of columns equals width* space_step_y.</dd></dl>
+<p>Example: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="physics_8h.html">physics.h</a>&quot;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> main(<span class="keywordtype">void</span>) {</div>
+<div class="line">    <a class="code hl_function" href="physics_8h.html#aa518ce42953bc0c7e97e1b8a398d708c">heat_equation_2D_P1_OPENMP</a>(0.1, 5, 0.1, 0.1, 50);</div>
+<div class="line">    <span class="keywordflow">return</span> 0;</div>
+<div class="line">}</div>
+<div class="ttc" id="aphysics_8h_html_aa518ce42953bc0c7e97e1b8a398d708c"><div class="ttname"><a href="physics_8h.html#aa518ce42953bc0c7e97e1b8a398d708c">heat_equation_2D_P1_OPENMP</a></div><div class="ttdeci">int heat_equation_2D_P1_OPENMP(double time_step, double time_limit, double spaceX_step, double spaceY_step, long long precision)</div><div class="ttdoc">This is a function that simulates the heat transfer in 2D object, and each core writes the result to ...</div></div>
+</div><!-- fragment --> 
 </div>
 </div>
-<a id="a68cd88b12ebc4e2b124e5f5af1a713ad" name="a68cd88b12ebc4e2b124e5f5af1a713ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68cd88b12ebc4e2b124e5f5af1a713ad">&#9670;&#160;</a></span>heat_equation_2D_serial()</h2>
+<a id="ac0d56d3d53de808eb8b42609bf65e8af" name="ac0d56d3d53de808eb8b42609bf65e8af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0d56d3d53de808eb8b42609bf65e8af">&#9670;&#160;</a></span>heat_equation_2D_serial()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1587,7 +1605,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">long long&#160;</td>
           <td class="paramname"><em>precision</em>&#160;</td>
         </tr>
         <tr>
@@ -1598,10 +1616,31 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>This is a function that simulates the heat transfer in 2D object, and write the result to a file. </p>
+<p>In this simulation, we simulate heat propagation in 2D object as square or rectangle and the change in its tempreture over time using fourier transform.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time_step</td><td>The rate of change of the time. </td></tr>
+    <tr><td class="paramname">time_limit</td><td>The time that we want to measure the temperature of the object after. </td></tr>
+    <tr><td class="paramname">space_step_x</td><td>The rate of change of the space in x-axis. </td></tr>
+    <tr><td class="paramname">space_step_y</td><td>The rate of change of the space in y-axis. </td></tr>
+    <tr><td class="paramname">precision</td><td>The number of vectors we use in the calculations. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>0 if there is no error happened interrupted the calculations, and write the output to text file named simulate_heat_transfer_2D_serial_ + current time, the output file contains paragraphs each one represent the time slot, each row represent the temperature at this point of the 2D object on x-axis (length), and the column represent the temperature at this point at that time on y-axis (width). The number of rows in each paragraph (time slot) equals length* space_step_x, and the number of columns equals width* space_step_y.</dd></dl>
+<p>Example: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="physics_8h.html">physics.h</a>&quot;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> main(<span class="keywordtype">void</span>) {</div>
+<div class="line">    <a class="code hl_function" href="physics_8h.html#ac0d56d3d53de808eb8b42609bf65e8af">heat_equation_2D_serial</a>(0.1, 5, 0.1, 0.1,50);</div>
+<div class="line">    <span class="keywordflow">return</span> 0;</div>
+<div class="line">}</div>
+<div class="ttc" id="aphysics_8h_html_ac0d56d3d53de808eb8b42609bf65e8af"><div class="ttname"><a href="physics_8h.html#ac0d56d3d53de808eb8b42609bf65e8af">heat_equation_2D_serial</a></div><div class="ttdeci">int heat_equation_2D_serial(double time_step, double time_limit, double spaceX_step, double spaceY_step, long long precision)</div><div class="ttdoc">This is a function that simulates the heat transfer in 2D object, and write the result to a file.</div></div>
+</div><!-- fragment --> 
 </div>
 </div>
-<a id="a836fd752438eca48ff6893e21cec767f" name="a836fd752438eca48ff6893e21cec767f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a836fd752438eca48ff6893e21cec767f">&#9670;&#160;</a></span>heat_equation_execution_time_1D_P1_MPI()</h2>
+<a id="a6c92f4828cb34dbd6fe9b8a2f02a65b7" name="a6c92f4828cb34dbd6fe9b8a2f02a65b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c92f4828cb34dbd6fe9b8a2f02a65b7">&#9670;&#160;</a></span>heat_equation_execution_time_1D_P1_MPI()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1627,7 +1666,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">long long&#160;</td>
           <td class="paramname"><em>precision</em>&#160;</td>
         </tr>
         <tr>
@@ -1638,10 +1677,30 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>This is a function that simulates the heat transfer in 1D object as wire, and return the execution time without I/O. </p>
+<p>In this simulation, we simulate heat propagation in 1D object as wire and the change in its tempreture over time using fourier transform. Then we parallelize the function using MPI, as we divide the object into equal parts and each core calculates the temperature of its part. Then, we return the execution time without I/O.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time_step</td><td>The rate of change of the time. </td></tr>
+    <tr><td class="paramname">time_limit</td><td>The time that we want to measure the temperature of the object after. </td></tr>
+    <tr><td class="paramname">space_step</td><td>The rate of change of the space. </td></tr>
+    <tr><td class="paramname">precision</td><td>The number of vectors we use in the calculations. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>execution time without I/O.</dd></dl>
+<p>Example: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="physics_8h.html">physics.h</a>&quot;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> main(<span class="keywordtype">void</span>) {</div>
+<div class="line">    <a class="code hl_function" href="physics_8h.html#a6c92f4828cb34dbd6fe9b8a2f02a65b7">heat_equation_execution_time_1D_P1_MPI</a>(0.01, 0.5, 0.05, 50);</div>
+<div class="line">    <span class="keywordflow">return</span> 0;</div>
+<div class="line">}</div>
+<div class="ttc" id="aphysics_8h_html_a6c92f4828cb34dbd6fe9b8a2f02a65b7"><div class="ttname"><a href="physics_8h.html#a6c92f4828cb34dbd6fe9b8a2f02a65b7">heat_equation_execution_time_1D_P1_MPI</a></div><div class="ttdeci">double heat_equation_execution_time_1D_P1_MPI(double time_step, double time_limit, double space_step, long long precision)</div><div class="ttdoc">This is a function that simulates the heat transfer in 1D object as wire, and return the execution ti...</div></div>
+</div><!-- fragment --> 
 </div>
 </div>
-<a id="ab7206b80d87cfec3cb813f479fd0883a" name="ab7206b80d87cfec3cb813f479fd0883a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7206b80d87cfec3cb813f479fd0883a">&#9670;&#160;</a></span>heat_equation_execution_time_1D_P1_OPENMP()</h2>
+<a id="afb18b7a0a2c4c947357ffe8c443c7d59" name="afb18b7a0a2c4c947357ffe8c443c7d59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb18b7a0a2c4c947357ffe8c443c7d59">&#9670;&#160;</a></span>heat_equation_execution_time_1D_P1_OPENMP()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1667,7 +1726,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">long long&#160;</td>
           <td class="paramname"><em>precision</em>&#160;</td>
         </tr>
         <tr>
@@ -1678,10 +1737,30 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>This is a function that simulates the heat transfer in 1D object as wire, and return the execution time without I/O. </p>
+<p>In this simulation, we simulate heat propagation in 1D object as wire and the change in its tempreture over time using fourier transform. Then, we parallelize the function using OPENMP, as we provide specific number of threads and make the iterations of the loop are divided into equal-sized chunks, and each chunk is assigned to a thread. Then, return the execution time without I/O.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time_step</td><td>The rate of change of the time. </td></tr>
+    <tr><td class="paramname">time_limit</td><td>The time that we want to measure the temperature of the object after. </td></tr>
+    <tr><td class="paramname">space_step</td><td>The rate of change of the space. </td></tr>
+    <tr><td class="paramname">precision</td><td>The number of vectors we use in the calculations. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>execution time without I/O. Example: <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="physics_8h.html">physics.h</a>&quot;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> main(<span class="keywordtype">void</span>) {</div>
+<div class="line">    <a class="code hl_function" href="physics_8h.html#afb18b7a0a2c4c947357ffe8c443c7d59">heat_equation_execution_time_1D_P1_OPENMP</a>(0.01, 0.5, 0.05, 50);</div>
+<div class="line">    <span class="keywordflow">return</span> 0;</div>
+<div class="line">}</div>
+<div class="ttc" id="aphysics_8h_html_afb18b7a0a2c4c947357ffe8c443c7d59"><div class="ttname"><a href="physics_8h.html#afb18b7a0a2c4c947357ffe8c443c7d59">heat_equation_execution_time_1D_P1_OPENMP</a></div><div class="ttdeci">double heat_equation_execution_time_1D_P1_OPENMP(double time_step, double time_limit, double space_step, long long precision)</div><div class="ttdoc">This is a function that simulates the heat transfer in 1D object as wire, and return the execution ti...</div></div>
+</div><!-- fragment --> </dd></dl>
+
 </div>
 </div>
-<a id="aa095602956542bc2a024ff4da7f7eac5" name="aa095602956542bc2a024ff4da7f7eac5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa095602956542bc2a024ff4da7f7eac5">&#9670;&#160;</a></span>heat_equation_execution_time_1D_serial()</h2>
+<a id="a2bc0d919ddc674edf4adf1e615f03972" name="a2bc0d919ddc674edf4adf1e615f03972"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bc0d919ddc674edf4adf1e615f03972">&#9670;&#160;</a></span>heat_equation_execution_time_1D_serial()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1707,7 +1786,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">long long&#160;</td>
           <td class="paramname"><em>precision</em>&#160;</td>
         </tr>
         <tr>
@@ -1718,10 +1797,30 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>This is a function that simulates the heat transfer in 1D object as wire, and return the execution time without I/O. </p>
+<p>In this simulation, we simulate heat propagation in 1D object as wire and the change in its tempreture over time using fourier transform.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time_step</td><td>The rate of change of the time. </td></tr>
+    <tr><td class="paramname">time_limit</td><td>The time that we want to measure the temperature of the object after. </td></tr>
+    <tr><td class="paramname">space_step</td><td>The rate of change of the space. </td></tr>
+    <tr><td class="paramname">precision</td><td>The number of vectors we use in the calculations. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>execution time without I/O if there is no error happened interrupted the calculations.</dd></dl>
+<p>Example: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="physics_8h.html">physics.h</a>&quot;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> main(<span class="keywordtype">void</span>) {</div>
+<div class="line">    <a class="code hl_function" href="physics_8h.html#a2bc0d919ddc674edf4adf1e615f03972">heat_equation_execution_time_1D_serial</a>(0.01, 0.5, 0.05,50);</div>
+<div class="line">    <span class="keywordflow">return</span> 0;</div>
+<div class="line">}</div>
+<div class="ttc" id="aphysics_8h_html_a2bc0d919ddc674edf4adf1e615f03972"><div class="ttname"><a href="physics_8h.html#a2bc0d919ddc674edf4adf1e615f03972">heat_equation_execution_time_1D_serial</a></div><div class="ttdeci">double heat_equation_execution_time_1D_serial(double time_step, double time_limit, double space_step, long long precision)</div><div class="ttdoc">This is a function that simulates the heat transfer in 1D object as wire, and return the execution ti...</div></div>
+</div><!-- fragment --> 
 </div>
 </div>
-<a id="ab5d9ea90faf46664d2c638d819137667" name="ab5d9ea90faf46664d2c638d819137667"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5d9ea90faf46664d2c638d819137667">&#9670;&#160;</a></span>heat_equation_execution_time_2D_P1_MPI()</h2>
+<a id="ae1f6ddbe4dda8fb7ed84b6fa83512c0b" name="ae1f6ddbe4dda8fb7ed84b6fa83512c0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1f6ddbe4dda8fb7ed84b6fa83512c0b">&#9670;&#160;</a></span>heat_equation_execution_time_2D_P1_MPI()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1753,7 +1852,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">long long&#160;</td>
           <td class="paramname"><em>precision</em>&#160;</td>
         </tr>
         <tr>
@@ -1764,10 +1863,31 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>This is a function that simulates the heat transfer in 2D object, and return the execution time without I/O. </p>
+<p>In this simulation, we simulate heat propagation in 2D object as square or rectangle and the change in its tempreture over time using fourier transform. Then we parallelize the function using MPI, as we divide the object into equal parts and each core calculates the temperature of its part. Then, we return the execution time without I/O.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time_step</td><td>The rate of change of the time. </td></tr>
+    <tr><td class="paramname">time_limit</td><td>The time that we want to measure the temperature of the object after. </td></tr>
+    <tr><td class="paramname">space_step_x</td><td>The rate of change of the space in x-axis. </td></tr>
+    <tr><td class="paramname">space_step_y</td><td>The rate of change of the space in y-axis. </td></tr>
+    <tr><td class="paramname">precision</td><td>The number of vectors we use in the calculations. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>execution time without I/O.</dd></dl>
+<p>Example: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="physics_8h.html">physics.h</a>&quot;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> main(<span class="keywordtype">void</span>) {</div>
+<div class="line">    <a class="code hl_function" href="physics_8h.html#ae1f6ddbe4dda8fb7ed84b6fa83512c0b">heat_equation_execution_time_2D_P1_MPI</a>(0.1, 5, 0.1, 0.1,50);</div>
+<div class="line">    <span class="keywordflow">return</span> 0;</div>
+<div class="line">}</div>
+<div class="ttc" id="aphysics_8h_html_ae1f6ddbe4dda8fb7ed84b6fa83512c0b"><div class="ttname"><a href="physics_8h.html#ae1f6ddbe4dda8fb7ed84b6fa83512c0b">heat_equation_execution_time_2D_P1_MPI</a></div><div class="ttdeci">double heat_equation_execution_time_2D_P1_MPI(double time_step, double time_limit, double spaceX_step, double spaceY_step, long long precision)</div><div class="ttdoc">This is a function that simulates the heat transfer in 2D object, and return the execution time witho...</div></div>
+</div><!-- fragment --> 
 </div>
 </div>
-<a id="aa7e26d1fc4e8ef65b81a0db162122b40" name="aa7e26d1fc4e8ef65b81a0db162122b40"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7e26d1fc4e8ef65b81a0db162122b40">&#9670;&#160;</a></span>heat_equation_execution_time_2D_P1_OPENMP()</h2>
+<a id="a92e42d46d00d387ad2d0af5fa440a004" name="a92e42d46d00d387ad2d0af5fa440a004"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92e42d46d00d387ad2d0af5fa440a004">&#9670;&#160;</a></span>heat_equation_execution_time_2D_P1_OPENMP()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1799,7 +1919,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">long long&#160;</td>
           <td class="paramname"><em>precision</em>&#160;</td>
         </tr>
         <tr>
@@ -1810,10 +1930,31 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>This is a function that simulates the heat transfer in 2D object, and return the execution time without I/O. </p>
+<p>In this simulation, we simulate heat propagation in 2D object as square or rectangle and the change in its tempreture over time using fourier transform. Then, we parallelize the function using OPENMP, as we provide specific number of threads and make the iterations of the loop are divided into equal-sized chunks, and each chunk is assigned to a thread. Then, return the execution time without I/O.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time_step</td><td>The rate of change of the time. </td></tr>
+    <tr><td class="paramname">time_limit</td><td>The time that we want to measure the temperature of the object after. </td></tr>
+    <tr><td class="paramname">space_step_x</td><td>The rate of change of the space in x-axis. </td></tr>
+    <tr><td class="paramname">space_step_y</td><td>The rate of change of the space in y-axis. </td></tr>
+    <tr><td class="paramname">precision</td><td>The number of vectors we use in the calculations. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the execution time without I/O. Example: <div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="physics_8h.html">physics.h</a>&quot;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> main(<span class="keywordtype">void</span>) {</div>
+<div class="line">    <a class="code hl_function" href="physics_8h.html#a92e42d46d00d387ad2d0af5fa440a004">heat_equation_execution_time_2D_P1_OPENMP</a>(0.1, 5, 0.1, 0.1, 50);</div>
+<div class="line">    <span class="keywordflow">return</span> 0;</div>
+<div class="line">}</div>
+<div class="ttc" id="aphysics_8h_html_a92e42d46d00d387ad2d0af5fa440a004"><div class="ttname"><a href="physics_8h.html#a92e42d46d00d387ad2d0af5fa440a004">heat_equation_execution_time_2D_P1_OPENMP</a></div><div class="ttdeci">double heat_equation_execution_time_2D_P1_OPENMP(double time_step, double time_limit, double spaceX_step, double spaceY_step, long long precision)</div><div class="ttdoc">This is a function that simulates the heat transfer in 2D object, and return the execution time witho...</div></div>
+</div><!-- fragment --> </dd></dl>
+
 </div>
 </div>
-<a id="ab02315d90676197d2d723823d13cb4f9" name="ab02315d90676197d2d723823d13cb4f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab02315d90676197d2d723823d13cb4f9">&#9670;&#160;</a></span>heat_equation_execution_time_2D_serial()</h2>
+<a id="a6008837e283ef1ecb77c66af659b5ddb" name="a6008837e283ef1ecb77c66af659b5ddb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6008837e283ef1ecb77c66af659b5ddb">&#9670;&#160;</a></span>heat_equation_execution_time_2D_serial()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1845,7 +1986,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
+          <td class="paramtype">long long&#160;</td>
           <td class="paramname"><em>precision</em>&#160;</td>
         </tr>
         <tr>
@@ -1856,6 +1997,27 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>This is a function that simulates the heat transfer in 2D object, and return the execution time without I/O. </p>
+<p>In this simulation, we simulate heat propagation in 2D object as square or rectangle and the change in its tempreture over time using fourier transform.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time_step</td><td>The rate of change of the time. </td></tr>
+    <tr><td class="paramname">time_limit</td><td>The time that we want to measure the temperature of the object after. </td></tr>
+    <tr><td class="paramname">space_step_x</td><td>The rate of change of the space in x-axis. </td></tr>
+    <tr><td class="paramname">space_step_y</td><td>The rate of change of the space in y-axis. </td></tr>
+    <tr><td class="paramname">precision</td><td>The number of vectors we use in the calculations. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>execution time without I/O if there is no error happened interrupted the calculations.</dd></dl>
+<p>Example: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="physics_8h.html">physics.h</a>&quot;</span></div>
+<div class="line"> </div>
+<div class="line"><span class="keywordtype">int</span> main(<span class="keywordtype">void</span>) {</div>
+<div class="line">    <a class="code hl_function" href="physics_8h.html#a6008837e283ef1ecb77c66af659b5ddb">heat_equation_execution_time_2D_serial</a>(0.1, 5, 0.1, 0.1,50);</div>
+<div class="line">    <span class="keywordflow">return</span> 0;</div>
+<div class="line">}</div>
+<div class="ttc" id="aphysics_8h_html_a6008837e283ef1ecb77c66af659b5ddb"><div class="ttname"><a href="physics_8h.html#a6008837e283ef1ecb77c66af659b5ddb">heat_equation_execution_time_2D_serial</a></div><div class="ttdeci">double heat_equation_execution_time_2D_serial(double time_step, double time_limit, double spaceX_step, double spaceY_step, long long precision)</div><div class="ttdoc">This is a function that simulates the heat transfer in 2D object, and return the execution time witho...</div></div>
+</div><!-- fragment --> 
 </div>
 </div>
 </div><!-- contents -->

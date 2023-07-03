@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Computational Science Based on HPC: D:/FCAI/GP/Codes/LIB/Physics_LIB/include/thermoutils.h File Reference</title>
+<title>Computational Science Based on HPC: D:/FCAI/GP/Codes/LIB/lib/Physics_LIB/include/thermoutils.h File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -70,7 +70,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_1cb414fe04fab01e4a0bd3cda6e73191.html">Physics_LIB</a></li><li class="navelem"><a class="el" href="dir_ad3eeb50dce147622cb6a7ec623059c1.html">include</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_787acaf64017d5641c64393bd64682c4.html">Physics_LIB</a></li><li class="navelem"><a class="el" href="dir_d321b0b895e1a727907b7602d8e7d9be.html">include</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -80,6 +80,9 @@ $(function() {
   <div class="headertitle"><div class="title">thermoutils.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>This file contains the utility functions used by the heat transfer simulation in 1D and 2D to help in calculations.  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
 </div>
 <p><a href="thermoutils_8h_source.html">Go to the source code of this file.</a></p>
@@ -91,12 +94,16 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a71ee95bc2b4cf858eedf6d6ad2fb1524"><td class="memItemLeft" align="right" valign="top"><a class="el" href="thermoutils_8h.html#ae1d1ec9482079231e898236e2b23c9ba">ll</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="thermoutils_8h.html#a71ee95bc2b4cf858eedf6d6ad2fb1524">_cal_num_time</a> (double time_step, double time_limit)</td></tr>
-<tr class="separator:a71ee95bc2b4cf858eedf6d6ad2fb1524"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee4547e4d36f8a190c5c8858d19c38fd"><td class="memItemLeft" align="right" valign="top">unsigned <a class="el" href="thermoutils_8h.html#ae1d1ec9482079231e898236e2b23c9ba">ll</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="thermoutils_8h.html#aee4547e4d36f8a190c5c8858d19c38fd">_cal_num_time</a> (double time_step, double time_limit)</td></tr>
+<tr class="memdesc:aee4547e4d36f8a190c5c8858d19c38fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a function calculates the number of steps in the time untils we reach the time limit given the rate of change of the time and the time_limit.  <br /></td></tr>
+<tr class="separator:aee4547e4d36f8a190c5c8858d19c38fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1704ec8884af2b6e82ed14c08a0eaea9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="thermoutils_8h.html#ae1d1ec9482079231e898236e2b23c9ba">ll</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="thermoutils_8h.html#a1704ec8884af2b6e82ed14c08a0eaea9">_cal_num_space</a> (double length, double space_step)</td></tr>
+<tr class="memdesc:a1704ec8884af2b6e82ed14c08a0eaea9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a function calculates the number of steps we will move in the dimentions untils we reach the length given the rate of change of the space and the length of the object.  <br /></td></tr>
 <tr class="separator:a1704ec8884af2b6e82ed14c08a0eaea9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>This file contains the utility functions used by the heat transfer simulation in 1D and 2D to help in calculations. </p>
+</div><h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="ae1d1ec9482079231e898236e2b23c9ba" name="ae1d1ec9482079231e898236e2b23c9ba"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae1d1ec9482079231e898236e2b23c9ba">&#9670;&#160;</a></span>ll</h2>
 
@@ -138,16 +145,26 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>This is a function calculates the number of steps we will move in the dimentions untils we reach the length given the rate of change of the space and the length of the object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">length</td><td>The length of the object. </td></tr>
+    <tr><td class="paramname">space_step_x</td><td>The rate of change of the space in x-axis. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>number of steps we will move as a long long integer. </dd></dl>
+
 </div>
 </div>
-<a id="a71ee95bc2b4cf858eedf6d6ad2fb1524" name="a71ee95bc2b4cf858eedf6d6ad2fb1524"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71ee95bc2b4cf858eedf6d6ad2fb1524">&#9670;&#160;</a></span>_cal_num_time()</h2>
+<a id="aee4547e4d36f8a190c5c8858d19c38fd" name="aee4547e4d36f8a190c5c8858d19c38fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee4547e4d36f8a190c5c8858d19c38fd">&#9670;&#160;</a></span>_cal_num_time()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="thermoutils_8h.html#ae1d1ec9482079231e898236e2b23c9ba">ll</a> _cal_num_time </td>
+          <td class="memname">unsigned <a class="el" href="thermoutils_8h.html#ae1d1ec9482079231e898236e2b23c9ba">ll</a> _cal_num_time </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>time_step</em>, </td>
@@ -165,6 +182,16 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>This is a function calculates the number of steps in the time untils we reach the time limit given the rate of change of the time and the time_limit. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time_step</td><td>The rate of change of the time. </td></tr>
+    <tr><td class="paramname">time_limit</td><td>The time that we want to measure the temperature of the object after. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>number of steps we will move as a long long integer. </dd></dl>
 
 </div>
 </div>
