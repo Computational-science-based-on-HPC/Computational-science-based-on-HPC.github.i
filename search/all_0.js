@@ -35,5 +35,6 @@ var searchData=
   ['_5fsimulate_5fheat_5ftransfer_5f2d_5fmpi_32',['_simulate_heat_transfer_2D_MPI',['../thermopara_8h.html#a954f39712c3ab8565de98833760a6fc6',1,'thermopara.h']]],
   ['_5fsimulate_5fheat_5ftransfer_5f2d_5fopenmp_33',['_simulate_heat_transfer_2D_OPENMP',['../thermopara_8h.html#a7ae68140a2087aac5dcd9c777c43171d',1,'thermopara.h']]],
   ['_5fsimulate_5fheat_5ftransfer_5f2d_5fserial_34',['_simulate_heat_transfer_2D_serial',['../thermoserial_8h.html#aa2425de9a1bce6599e496f1cf52bb1f5',1,'thermoserial.h']]],
-  ['_5fvalid_5fosc_35',['_valid_osc',['../utils_8h.html#a3a8c7c54bec29f705c3548852c58fc05',1,'utils.h']]]
+  ['_5fsimulation_5ftime_5fdamped_5fos_5fparallel_5fomp_35',['_simulation_time_damped_os_parallel_omp',['../oscpara_8h.html#a25991cfb58abb88158b2329284fcddf6',1,'oscpara.h']]],
+  ['_5fvalid_5fosc_36',['_valid_osc',['../utils_8h.html#a3a8c7c54bec29f705c3548852c58fc05',1,'utils.h']]]
 ];

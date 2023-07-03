@@ -96,6 +96,8 @@ Functions</h2></td></tr>
 <tr class="memitem:ae5db5c69d51d1f9d3cc7cf5c61652f4c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#ae5db5c69d51d1f9d3cc7cf5c61652f4c">damped_os_parallel_v2</a> (double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files)</td></tr>
 <tr class="memdesc:ae5db5c69d51d1f9d3cc7cf5c61652f4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function simulates simple harmonic motion (Simple Spring Motion).  <br /></td></tr>
 <tr class="separator:ae5db5c69d51d1f9d3cc7cf5c61652f4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a890d7d3bf996e131a24bf8813f7831f4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#a890d7d3bf996e131a24bf8813f7831f4">damped_os_parallel_v3</a> (double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files, int number_of_threads)</td></tr>
+<tr class="separator:a890d7d3bf996e131a24bf8813f7831f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a250a724765894f40cd52f9b24d5fdc0a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="physics_8h.html#a250a724765894f40cd52f9b24d5fdc0a">elastic_pendulum</a> (double r, double length, double mass, double gravity, double k, double Ao, double Xo, double Yo, double Vo, double time_limit, double step_size, double damping_coefficent, int number_of_files)</td></tr>
 <tr class="memdesc:a250a724765894f40cd52f9b24d5fdc0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">function simulates the motion of (elastic pendulum/2D-spring/spring pendulum) system.  <br /></td></tr>
 <tr class="separator:a250a724765894f40cd52f9b24d5fdc0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -733,6 +735,100 @@ Functions</h2></td></tr>
 <div class="line">}</div>
 <div class="ttc" id="aphysics_8h_html_ae5db5c69d51d1f9d3cc7cf5c61652f4c"><div class="ttname"><a href="physics_8h.html#ae5db5c69d51d1f9d3cc7cf5c61652f4c">damped_os_parallel_v2</a></div><div class="ttdeci">int damped_os_parallel_v2(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files)</div><div class="ttdoc">This function simulates simple harmonic motion (Simple Spring Motion).</div></div>
 </div><!-- fragment --> </dd></dl>
+
+</div>
+</div>
+<a id="a890d7d3bf996e131a24bf8813f7831f4" name="a890d7d3bf996e131a24bf8813f7831f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a890d7d3bf996e131a24bf8813f7831f4">&#9670;&#160;</a></span>damped_os_parallel_v3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double damped_os_parallel_v3 </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>max_amplitude</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>length</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>mass</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>gravity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>k</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>Ao</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>Vo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>FI</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>time_limit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>step_size</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>damping_coefficent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>number_of_files</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>number_of_threads</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
