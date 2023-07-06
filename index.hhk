@@ -1,0 +1,309 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermoutils_8h.html#a1704ec8884af2b6e82ed14c08a0eaea9"><param name="Name" value="_cal_num_space(double length, double space_step)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermoutils_8h.html#aee4547e4d36f8a190c5c8858d19c38fd"><param name="Name" value="_cal_num_time(double time_step, double time_limit)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html#a8b1620365d3de409f889374462d3cf53"><param name="Name" value="_dx(double dx)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html#ad5ad8a1874b84c85772c1e496f5b0ce8"><param name="Name" value="_dy(double dy)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="oscpara_8h.html#abb33ce0b319f3a834cd52865d35dd00f"><param name="Name" value="_execution_time_damped_os_parallel_mpi(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="oscpara_8h.html#ae1577f778d4a914ca4734649de9573e9"><param name="Name" value="_execution_time_damped_os_parallel_mpi_omp(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="oscpara_8h.html#a3287349373dfead4c0c5a27a98cefa78"><param name="Name" value="_execution_time_damped_os_parallel_omp(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files, int num_of_threads)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="oscserial_8h.html#aae6d5547cfa75d5a44a11bbaf035a08b"><param name="Name" value="_execution_time_damped_os_serial(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="oscserial_8h.html#a85a88daa187ed164c42bb06aff121ac4"><param name="Name" value="_execution_time_elastic_pendulum(double r, double length, double mass, double gravity, double k, double Ao, double Xo, double Yo, double Vo, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html#a16f94868c7bef2e720cd380464e3c537"><param name="Name" value="_execution_time_heat_transfer_1D_MPI(double time_step, double time_limit, double space_step, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html#a2f34d5737dc33964a277b842705555dd"><param name="Name" value="_execution_time_heat_transfer_1D_OPENMP(double time_step, double time_limit, double space_step, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermoserial_8h.html#ac2e94bfab9f49be5c46a96c0abe9bfcb"><param name="Name" value="_execution_time_heat_transfer_1D_serial(double time_step, double time_limit, double space_step, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html#ada4f8e7423a226d2f54e73ae86ac2c11"><param name="Name" value="_execution_time_heat_transfer_2D_MPI(double time_step, double time_limit, double space_step_x, double space_step_y, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html#a6894fa2a91c4914a409621247bc2b21a"><param name="Name" value="_execution_time_heat_transfer_2D_OPENMP(double time_step, double time_limit, double space_step_x, double space_step_y, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermoserial_8h.html#a6668903e7d1a7a89ddca5fd4a69c97ea"><param name="Name" value="_execution_time_heat_transfer_2D_serial(double time_step, double time_limit, double space_step_x, double space_step_y, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html#a862387326aafe9264ddddee4f9fcb064"><param name="Name" value="_f1(double x, double y, double dx, double tx, double ty, double k, double m, double b, double r)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html#a2b57fca272f5770b76a681144aff099b"><param name="Name" value="_f2(double x, double y, double dy, double tx, double ty, double k, double m, double b, double r, double g)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermoserial_8h.html#afc80269801cc439eee37e40f8af316d8"><param name="Name" value="_get_value_1D(double time_step, double space_step, long long x, unsigned long long t, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html#a6b0c8331474c01ec42fadb628ef004eb"><param name="Name" value="_get_value_1D_mpi(double time_step, double space_step, long long x, unsigned long long t, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html#ac8cc6290ade88dcd051fcb46397619a6"><param name="Name" value="_get_value_1D_openmp(double time_step, double space_step, long long x, unsigned long long t, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermoserial_8h.html#ae5ef370ac838505415873b5899f10d39"><param name="Name" value="_get_value_2D(double time_step, double length, double space_step_x, double width, double space_step_y, long long x, long long y, unsigned long long t, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html#ad2bc31d23b96ef2d5b21afa319f1125d"><param name="Name" value="_get_value_2D_mpi(double time_step, double length, double space_step_x, double width, double space_step_y, long long x, long long y, unsigned long long t, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html#aca3789a2217f35369271a92d8a8235a4"><param name="Name" value="_get_value_2D_openmp(double time_step, double length, double space_step_x, double width, double space_step_y, long long x, long long y, unsigned long long t, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html#a4d2ce11e76419bed045059fbf9113fea"><param name="Name" value="_min_int(int x, int y)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html#ad976eead09c5a57066d65c7f8d81aff4"><param name="Name" value="_round(double x)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="oscpara_8h.html#a7a4c62e07c0c191144059c22499faa96"><param name="Name" value="_simulate_damped_os_parallel_mpi(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="oscpara_8h.html#abf929c2309125ee98bcae9a0eb6df936"><param name="Name" value="_simulate_damped_os_parallel_mpi_omp(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="oscserial_8h.html#a1e32d93f8fef1f846d080c6e7c75e5cd"><param name="Name" value="_simulate_damped_os_serial(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="oscserial_8h.html#afb582231facd6c047f6a907b41a248bb"><param name="Name" value="_simulate_elastic_pendulum(double r, double length, double mass, double gravity, double k, double Ao, double Xo, double Yo, double Vo, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html#a371fe5726a9d0a9829b32bb18e234002"><param name="Name" value="_simulate_heat_transfer_1D_MPI(double time_step, double time_limit, double space_step, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html#afabef68be228f71a3a779dfd43f70627"><param name="Name" value="_simulate_heat_transfer_1D_OPENMP(double time_step, double time_limit, double space_step, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermoserial_8h.html#a07b03981e7cfafafa737a9e63ab8888d"><param name="Name" value="_simulate_heat_transfer_1D_serial(double time_step, double time_limit, double space_step, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html#a51bc7be4c89e81704e7506a7f4424fd5"><param name="Name" value="_simulate_heat_transfer_2D_MPI(double time_step, double time_limit, double space_step_x, double space_step_y, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html#aaf6bbdafcfa5526786abaf008ff37f6a"><param name="Name" value="_simulate_heat_transfer_2D_OPENMP(double time_step, double time_limit, double space_step_x, double space_step_y, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermoserial_8h.html#add8d2bf2eedc2246ca3f909ace567d91"><param name="Name" value="_simulate_heat_transfer_2D_serial(double time_step, double time_limit, double space_step_x, double space_step_y, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html#a3a8c7c54bec29f705c3548852c58fc05"><param name="Name" value="_valid_osc(double x, double y, double length, double mass, double gravity, double k, double time_limit, double step_size, double damping_coefficent, int number_of_files, double Fo)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html#a1db4c3db3665c8b4c390c3aedeb6c75e"><param name="Name" value="cpu_inf_stream()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a76903fd1ad47ad819e06adacaf31f338"><param name="Name" value="damped_os_parallel_execution_time_v1(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#af847804cd4269d53afe1f31dd8346989"><param name="Name" value="damped_os_parallel_execution_time_v2(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a2a6625b92d1305142f43a14823161907"><param name="Name" value="damped_os_parallel_execution_time_v3(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files, int num_of_threads)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a530f3670f6d92faf7f18198130f829be"><param name="Name" value="damped_os_parallel_v1(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a2b31d55639531f1ae9a809ea1903782f"><param name="Name" value="damped_os_parallel_v2(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#ad04fd9d1bd05ca912a884d0d47c9c5ef"><param name="Name" value="damped_os_serial(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#adb397f248d058140d07a57694f3815de"><param name="Name" value="damped_os_serial_execution(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a413d234041556e40a9c8924c8e8414fe"><param name="Name" value="elastic_pendulum(double r, double length, double mass, double gravity, double k, double Ao, double Xo, double Yo, double Vo, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a8a29add8a4bd2c7174ba46c38955acd5"><param name="Name" value="elastic_pendulum_execution(double r, double length, double mass, double gravity, double k, double Ao, double Xo, double Yo, double Vo, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a32d626626eee0bc4ade146973f6abb1c"><param name="Name" value="finalize()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a72581147c65395a93fe41e02e6751998"><param name="Name" value="heat_equation_1D_P1_MPI(double time_step, double time_limit, double space_step, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a5f04da1fcf214753beb2f6376ebaf277"><param name="Name" value="heat_equation_1D_P1_OPENMP(double time_step, double time_limit, double space_step, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#abf0f62b828776dd4c39970a947d03f67"><param name="Name" value="heat_equation_1D_serial(double time_step, double time_limit, double space_step, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a75ed163d3845df93b7780b0231f631cf"><param name="Name" value="heat_equation_2D_P1_MPI(double time_step, double time_limit, double spaceX_step, double spaceY_step, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#aa518ce42953bc0c7e97e1b8a398d708c"><param name="Name" value="heat_equation_2D_P1_OPENMP(double time_step, double time_limit, double spaceX_step, double spaceY_step, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a078c457847e34d15d45e1a51be19820b"><param name="Name" value="heat_equation_2D_serial(double time_step, double time_limit, double spaceX_step, double spaceY_step, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a6c92f4828cb34dbd6fe9b8a2f02a65b7"><param name="Name" value="heat_equation_execution_time_1D_P1_MPI(double time_step, double time_limit, double space_step, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#afb18b7a0a2c4c947357ffe8c443c7d59"><param name="Name" value="heat_equation_execution_time_1D_P1_OPENMP(double time_step, double time_limit, double space_step, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a2bc0d919ddc674edf4adf1e615f03972"><param name="Name" value="heat_equation_execution_time_1D_serial(double time_step, double time_limit, double space_step, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#ae1f6ddbe4dda8fb7ed84b6fa83512c0b"><param name="Name" value="heat_equation_execution_time_2D_P1_MPI(double time_step, double time_limit, double spaceX_step, double spaceY_step, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a92e42d46d00d387ad2d0af5fa440a004"><param name="Name" value="heat_equation_execution_time_2D_P1_OPENMP(double time_step, double time_limit, double spaceX_step, double spaceY_step, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a6008837e283ef1ecb77c66af659b5ddb"><param name="Name" value="heat_equation_execution_time_2D_serial(double time_step, double time_limit, double spaceX_step, double spaceY_step, long long precision)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="oscpara_8h.html"><param name="Name" value="oscpara.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="oscpara_8h.html#abb33ce0b319f3a834cd52865d35dd00f"><param name="Name" value="_execution_time_damped_os_parallel_mpi(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="oscpara_8h.html"><param name="Name" value="oscpara.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="oscpara_8h.html#ae1577f778d4a914ca4734649de9573e9"><param name="Name" value="_execution_time_damped_os_parallel_mpi_omp(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="oscpara_8h.html"><param name="Name" value="oscpara.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="oscpara_8h.html#a3287349373dfead4c0c5a27a98cefa78"><param name="Name" value="_execution_time_damped_os_parallel_omp(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files, int num_of_threads)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="oscpara_8h.html"><param name="Name" value="oscpara.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="oscpara_8h.html#a7a4c62e07c0c191144059c22499faa96"><param name="Name" value="_simulate_damped_os_parallel_mpi(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="oscpara_8h.html"><param name="Name" value="oscpara.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="oscpara_8h.html#abf929c2309125ee98bcae9a0eb6df936"><param name="Name" value="_simulate_damped_os_parallel_mpi_omp(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="oscserial_8h.html"><param name="Name" value="oscserial.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="oscserial_8h.html#aae6d5547cfa75d5a44a11bbaf035a08b"><param name="Name" value="_execution_time_damped_os_serial(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="oscserial_8h.html"><param name="Name" value="oscserial.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="oscserial_8h.html#a85a88daa187ed164c42bb06aff121ac4"><param name="Name" value="_execution_time_elastic_pendulum(double r, double length, double mass, double gravity, double k, double Ao, double Xo, double Yo, double Vo, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="oscserial_8h.html"><param name="Name" value="oscserial.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="oscserial_8h.html#a1e32d93f8fef1f846d080c6e7c75e5cd"><param name="Name" value="_simulate_damped_os_serial(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="oscserial_8h.html"><param name="Name" value="oscserial.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="oscserial_8h.html#afb582231facd6c047f6a907b41a248bb"><param name="Name" value="_simulate_elastic_pendulum(double r, double length, double mass, double gravity, double k, double Ao, double Xo, double Yo, double Vo, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html"><param name="Name" value="physics.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a76903fd1ad47ad819e06adacaf31f338"><param name="Name" value="damped_os_parallel_execution_time_v1(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html"><param name="Name" value="physics.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#af847804cd4269d53afe1f31dd8346989"><param name="Name" value="damped_os_parallel_execution_time_v2(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html"><param name="Name" value="physics.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a2a6625b92d1305142f43a14823161907"><param name="Name" value="damped_os_parallel_execution_time_v3(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files, int num_of_threads)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html"><param name="Name" value="physics.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a530f3670f6d92faf7f18198130f829be"><param name="Name" value="damped_os_parallel_v1(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html"><param name="Name" value="physics.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a2b31d55639531f1ae9a809ea1903782f"><param name="Name" value="damped_os_parallel_v2(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html"><param name="Name" value="physics.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#ad04fd9d1bd05ca912a884d0d47c9c5ef"><param name="Name" value="damped_os_serial(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html"><param name="Name" value="physics.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#adb397f248d058140d07a57694f3815de"><param name="Name" value="damped_os_serial_execution(double max_amplitude, double length, double mass, double gravity, double k, double Ao, double Vo, double FI, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html"><param name="Name" value="physics.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a413d234041556e40a9c8924c8e8414fe"><param name="Name" value="elastic_pendulum(double r, double length, double mass, double gravity, double k, double Ao, double Xo, double Yo, double Vo, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html"><param name="Name" value="physics.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a8a29add8a4bd2c7174ba46c38955acd5"><param name="Name" value="elastic_pendulum_execution(double r, double length, double mass, double gravity, double k, double Ao, double Xo, double Yo, double Vo, double time_limit, double step_size, double damping_coefficent, int number_of_files)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html"><param name="Name" value="physics.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a32d626626eee0bc4ade146973f6abb1c"><param name="Name" value="finalize()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html"><param name="Name" value="physics.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a72581147c65395a93fe41e02e6751998"><param name="Name" value="heat_equation_1D_P1_MPI(double time_step, double time_limit, double space_step, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html"><param name="Name" value="physics.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a5f04da1fcf214753beb2f6376ebaf277"><param name="Name" value="heat_equation_1D_P1_OPENMP(double time_step, double time_limit, double space_step, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html"><param name="Name" value="physics.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#abf0f62b828776dd4c39970a947d03f67"><param name="Name" value="heat_equation_1D_serial(double time_step, double time_limit, double space_step, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html"><param name="Name" value="physics.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a75ed163d3845df93b7780b0231f631cf"><param name="Name" value="heat_equation_2D_P1_MPI(double time_step, double time_limit, double spaceX_step, double spaceY_step, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html"><param name="Name" value="physics.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#aa518ce42953bc0c7e97e1b8a398d708c"><param name="Name" value="heat_equation_2D_P1_OPENMP(double time_step, double time_limit, double spaceX_step, double spaceY_step, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html"><param name="Name" value="physics.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a078c457847e34d15d45e1a51be19820b"><param name="Name" value="heat_equation_2D_serial(double time_step, double time_limit, double spaceX_step, double spaceY_step, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html"><param name="Name" value="physics.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a6c92f4828cb34dbd6fe9b8a2f02a65b7"><param name="Name" value="heat_equation_execution_time_1D_P1_MPI(double time_step, double time_limit, double space_step, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html"><param name="Name" value="physics.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#afb18b7a0a2c4c947357ffe8c443c7d59"><param name="Name" value="heat_equation_execution_time_1D_P1_OPENMP(double time_step, double time_limit, double space_step, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html"><param name="Name" value="physics.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a2bc0d919ddc674edf4adf1e615f03972"><param name="Name" value="heat_equation_execution_time_1D_serial(double time_step, double time_limit, double space_step, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html"><param name="Name" value="physics.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#ae1f6ddbe4dda8fb7ed84b6fa83512c0b"><param name="Name" value="heat_equation_execution_time_2D_P1_MPI(double time_step, double time_limit, double spaceX_step, double spaceY_step, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html"><param name="Name" value="physics.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a92e42d46d00d387ad2d0af5fa440a004"><param name="Name" value="heat_equation_execution_time_2D_P1_OPENMP(double time_step, double time_limit, double spaceX_step, double spaceY_step, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html"><param name="Name" value="physics.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="physics_8h.html#a6008837e283ef1ecb77c66af659b5ddb"><param name="Name" value="heat_equation_execution_time_2D_serial(double time_step, double time_limit, double spaceX_step, double spaceY_step, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html#a56431b6b701f28c3def4602ca1542c4d"><param name="Name" value="printmemstream()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html"><param name="Name" value="thermopara.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html#a16f94868c7bef2e720cd380464e3c537"><param name="Name" value="_execution_time_heat_transfer_1D_MPI(double time_step, double time_limit, double space_step, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html"><param name="Name" value="thermopara.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html#a2f34d5737dc33964a277b842705555dd"><param name="Name" value="_execution_time_heat_transfer_1D_OPENMP(double time_step, double time_limit, double space_step, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html"><param name="Name" value="thermopara.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html#ada4f8e7423a226d2f54e73ae86ac2c11"><param name="Name" value="_execution_time_heat_transfer_2D_MPI(double time_step, double time_limit, double space_step_x, double space_step_y, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html"><param name="Name" value="thermopara.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html#a6894fa2a91c4914a409621247bc2b21a"><param name="Name" value="_execution_time_heat_transfer_2D_OPENMP(double time_step, double time_limit, double space_step_x, double space_step_y, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html"><param name="Name" value="thermopara.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html#a6b0c8331474c01ec42fadb628ef004eb"><param name="Name" value="_get_value_1D_mpi(double time_step, double space_step, long long x, unsigned long long t, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html"><param name="Name" value="thermopara.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html#ac8cc6290ade88dcd051fcb46397619a6"><param name="Name" value="_get_value_1D_openmp(double time_step, double space_step, long long x, unsigned long long t, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html"><param name="Name" value="thermopara.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html#ad2bc31d23b96ef2d5b21afa319f1125d"><param name="Name" value="_get_value_2D_mpi(double time_step, double length, double space_step_x, double width, double space_step_y, long long x, long long y, unsigned long long t, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html"><param name="Name" value="thermopara.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html#aca3789a2217f35369271a92d8a8235a4"><param name="Name" value="_get_value_2D_openmp(double time_step, double length, double space_step_x, double width, double space_step_y, long long x, long long y, unsigned long long t, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html"><param name="Name" value="thermopara.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html#a371fe5726a9d0a9829b32bb18e234002"><param name="Name" value="_simulate_heat_transfer_1D_MPI(double time_step, double time_limit, double space_step, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html"><param name="Name" value="thermopara.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html#afabef68be228f71a3a779dfd43f70627"><param name="Name" value="_simulate_heat_transfer_1D_OPENMP(double time_step, double time_limit, double space_step, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html"><param name="Name" value="thermopara.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html#a51bc7be4c89e81704e7506a7f4424fd5"><param name="Name" value="_simulate_heat_transfer_2D_MPI(double time_step, double time_limit, double space_step_x, double space_step_y, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html"><param name="Name" value="thermopara.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="thermopara_8h.html#aaf6bbdafcfa5526786abaf008ff37f6a"><param name="Name" value="_simulate_heat_transfer_2D_OPENMP(double time_step, double time_limit, double space_step_x, double space_step_y, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermoserial_8h.html"><param name="Name" value="thermoserial.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="thermoserial_8h.html#ac2e94bfab9f49be5c46a96c0abe9bfcb"><param name="Name" value="_execution_time_heat_transfer_1D_serial(double time_step, double time_limit, double space_step, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermoserial_8h.html"><param name="Name" value="thermoserial.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="thermoserial_8h.html#a6668903e7d1a7a89ddca5fd4a69c97ea"><param name="Name" value="_execution_time_heat_transfer_2D_serial(double time_step, double time_limit, double space_step_x, double space_step_y, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermoserial_8h.html"><param name="Name" value="thermoserial.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="thermoserial_8h.html#afc80269801cc439eee37e40f8af316d8"><param name="Name" value="_get_value_1D(double time_step, double space_step, long long x, unsigned long long t, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermoserial_8h.html"><param name="Name" value="thermoserial.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="thermoserial_8h.html#ae5ef370ac838505415873b5899f10d39"><param name="Name" value="_get_value_2D(double time_step, double length, double space_step_x, double width, double space_step_y, long long x, long long y, unsigned long long t, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermoserial_8h.html"><param name="Name" value="thermoserial.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="thermoserial_8h.html#a07b03981e7cfafafa737a9e63ab8888d"><param name="Name" value="_simulate_heat_transfer_1D_serial(double time_step, double time_limit, double space_step, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermoserial_8h.html"><param name="Name" value="thermoserial.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="thermoserial_8h.html#add8d2bf2eedc2246ca3f909ace567d91"><param name="Name" value="_simulate_heat_transfer_2D_serial(double time_step, double time_limit, double space_step_x, double space_step_y, long long precision)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermoutils_8h.html"><param name="Name" value="thermoutils.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="thermoutils_8h.html#a1704ec8884af2b6e82ed14c08a0eaea9"><param name="Name" value="_cal_num_space(double length, double space_step)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="thermoutils_8h.html"><param name="Name" value="thermoutils.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="thermoutils_8h.html#aee4547e4d36f8a190c5c8858d19c38fd"><param name="Name" value="_cal_num_time(double time_step, double time_limit)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html"><param name="Name" value="utils.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html#a8b1620365d3de409f889374462d3cf53"><param name="Name" value="_dx(double dx)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html"><param name="Name" value="utils.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html#ad5ad8a1874b84c85772c1e496f5b0ce8"><param name="Name" value="_dy(double dy)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html"><param name="Name" value="utils.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html#a862387326aafe9264ddddee4f9fcb064"><param name="Name" value="_f1(double x, double y, double dx, double tx, double ty, double k, double m, double b, double r)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html"><param name="Name" value="utils.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html#a2b57fca272f5770b76a681144aff099b"><param name="Name" value="_f2(double x, double y, double dy, double tx, double ty, double k, double m, double b, double r, double g)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html"><param name="Name" value="utils.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html#a4d2ce11e76419bed045059fbf9113fea"><param name="Name" value="_min_int(int x, int y)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html"><param name="Name" value="utils.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html#ad976eead09c5a57066d65c7f8d81aff4"><param name="Name" value="_round(double x)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html"><param name="Name" value="utils.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html#a3a8c7c54bec29f705c3548852c58fc05"><param name="Name" value="_valid_osc(double x, double y, double length, double mass, double gravity, double k, double time_limit, double step_size, double damping_coefficent, int number_of_files, double Fo)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html"><param name="Name" value="utils.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html#a1db4c3db3665c8b4c390c3aedeb6c75e"><param name="Name" value="cpu_inf_stream()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html"><param name="Name" value="utils.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utils_8h.html#a56431b6b701f28c3def4602ca1542c4d"><param name="Name" value="printmemstream()"></OBJECT>
+  </UL>
+</UL>
+</BODY>
+</HTML>

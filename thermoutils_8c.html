@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Physics LIB: D:/FCAI/GP/Codes/LIB/Physics_LIB/src/thermoutils.c File Reference</title>
+<title>Computational Science Based on HPC: D:/FCAI/GP/Codes/LIB/lib/Physics_LIB/src/thermoutils.c File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -20,8 +20,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="3.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Physics LIB
+   <div id="projectname">Computational Science Based on HPC
    </div>
   </td>
  </tr>
@@ -69,7 +70,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_1cb414fe04fab01e4a0bd3cda6e73191.html">Physics_LIB</a></li><li class="navelem"><a class="el" href="dir_ae4a55380c7eddb4f63992d7586d65a7.html">src</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_787acaf64017d5641c64393bd64682c4.html">Physics_LIB</a></li><li class="navelem"><a class="el" href="dir_da10daccb90a794bd8e6c4d7b574d851.html">src</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -80,14 +81,20 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="thermoutils_8h_source.html">../include/thermoutils.h</a>&quot;</code><br />
+<code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;sys/sysinfo.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;sys/types.h&gt;</code><br />
+<code>#include &lt;sys/stat.h&gt;</code><br />
+<code>#include &lt;unistd.h&gt;</code><br />
+<code>#include &lt;dirent.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for thermoutils.c:</div>
 <div class="dyncontent">
-<div class="center"><img src="thermoutils_8c__incl.png" border="0" usemap="#a_d_1_2_f_c_a_i_2_g_p_2_codes_2_l_i_b_2_physics___l_i_b_2src_2thermoutils_8c" alt=""/></div>
+<div class="center"><img src="thermoutils_8c__incl.png" border="0" usemap="#a_d_1_2_f_c_a_i_2_g_p_2_codes_2_l_i_b_2lib_2_physics___l_i_b_2src_2thermoutils_8c" alt=""/></div>
 </div>
-</div>
-<p><a href="thermoutils_8c_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
+</div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:ae1d1ec9482079231e898236e2b23c9ba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="thermoutils_8c.html#ae1d1ec9482079231e898236e2b23c9ba">ll</a>&#160;&#160;&#160;long long</td></tr>
@@ -95,9 +102,11 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a71ee95bc2b4cf858eedf6d6ad2fb1524"><td class="memItemLeft" align="right" valign="top"><a class="el" href="thermoutils_8h.html#ae1d1ec9482079231e898236e2b23c9ba">ll</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="thermoutils_8c.html#a71ee95bc2b4cf858eedf6d6ad2fb1524">_cal_num_time</a> (double time_step, double time_limit)</td></tr>
-<tr class="separator:a71ee95bc2b4cf858eedf6d6ad2fb1524"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee4547e4d36f8a190c5c8858d19c38fd"><td class="memItemLeft" align="right" valign="top">unsigned <a class="el" href="thermoutils_8h.html#ae1d1ec9482079231e898236e2b23c9ba">ll</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="thermoutils_8c.html#aee4547e4d36f8a190c5c8858d19c38fd">_cal_num_time</a> (double time_step, double time_limit)</td></tr>
+<tr class="memdesc:aee4547e4d36f8a190c5c8858d19c38fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a function calculates the number of steps in the time untils we reach the time limit given the rate of change of the time and the time_limit.  <br /></td></tr>
+<tr class="separator:aee4547e4d36f8a190c5c8858d19c38fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1704ec8884af2b6e82ed14c08a0eaea9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="thermoutils_8h.html#ae1d1ec9482079231e898236e2b23c9ba">ll</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="thermoutils_8c.html#a1704ec8884af2b6e82ed14c08a0eaea9">_cal_num_space</a> (double length, double space_step)</td></tr>
+<tr class="memdesc:a1704ec8884af2b6e82ed14c08a0eaea9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a function calculates the number of steps we will move in the dimentions untils we reach the length given the rate of change of the space and the length of the object.  <br /></td></tr>
 <tr class="separator:a1704ec8884af2b6e82ed14c08a0eaea9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -112,8 +121,6 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="thermoutils_8c_source.html#l00002">2</a> of file <a class="el" href="thermoutils_8c_source.html">thermoutils.c</a>.</p>
 
 </div>
 </div>
@@ -144,23 +151,26 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thermoutils_8c_source.html#l00009">9</a> of file <a class="el" href="thermoutils_8c_source.html">thermoutils.c</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="thermoutils_8c_a1704ec8884af2b6e82ed14c08a0eaea9_icgraph.png" border="0" usemap="#athermoutils_8c_a1704ec8884af2b6e82ed14c08a0eaea9_icgraph" alt=""/></div>
-</div>
+<p>This is a function calculates the number of steps we will move in the dimentions untils we reach the length given the rate of change of the space and the length of the object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">length</td><td>The length of the object. </td></tr>
+    <tr><td class="paramname">space_step_x</td><td>The rate of change of the space in x-axis. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>number of steps we will move as a long long integer. </dd></dl>
 
 </div>
 </div>
-<a id="a71ee95bc2b4cf858eedf6d6ad2fb1524" name="a71ee95bc2b4cf858eedf6d6ad2fb1524"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71ee95bc2b4cf858eedf6d6ad2fb1524">&#9670;&#160;</a></span>_cal_num_time()</h2>
+<a id="aee4547e4d36f8a190c5c8858d19c38fd" name="aee4547e4d36f8a190c5c8858d19c38fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee4547e4d36f8a190c5c8858d19c38fd">&#9670;&#160;</a></span>_cal_num_time()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="thermoutils_8h.html#ae1d1ec9482079231e898236e2b23c9ba">ll</a> _cal_num_time </td>
+          <td class="memname">unsigned <a class="el" href="thermoutils_8h.html#ae1d1ec9482079231e898236e2b23c9ba">ll</a> _cal_num_time </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>time_step</em>, </td>
@@ -179,19 +189,74 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="thermoutils_8c_source.html#l00005">5</a> of file <a class="el" href="thermoutils_8c_source.html">thermoutils.c</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="thermoutils_8c_a71ee95bc2b4cf858eedf6d6ad2fb1524_icgraph.png" border="0" usemap="#athermoutils_8c_a71ee95bc2b4cf858eedf6d6ad2fb1524_icgraph" alt=""/></div>
-</div>
+<p>This is a function calculates the number of steps in the time untils we reach the time limit given the rate of change of the time and the time_limit. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">time_step</td><td>The rate of change of the time. </td></tr>
+    <tr><td class="paramname">time_limit</td><td>The time that we want to measure the temperature of the object after. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>number of steps we will move as a long long integer. </dd></dl>
 
 </div>
 </div>
 </div><!-- contents -->
-<!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7
-</small></address>
-</body>
-</html>
+<style>
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+  }
+  main {
+    flex: 1;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+  }
+  .project-details {
+    flex: 1;
+  }
+  .contributors {
+    flex: 1;
+  }
+  .contributors ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  .contributors ul li {
+    margin-bottom: 5px;
+  }
+</style>
+  <footer>
+    <div class="footer-content">
+      <div class="project-details">
+        <h3>Graduation Project</h3>
+        <h4>Computational Science based on HPC</h4>
+        <p>FCAI Cairo University, Computer Science Section.</p>
+		<p>Supervised by: DR.Ahmed Shawky</p>
+      </div>
+      <div class="contributors">
+        <h3>Contributed by:</h3>
+        <ul>
+          <li>Jonathan Saad</li>
+          <li>Habeba Rabie</li>
+          <li>Phoebe George</li>
+          <li>Andrew Naseif</li>
+          <li>David Ayman</li>
+        </ul>
+      </div>
+    </div>
+  </footer>

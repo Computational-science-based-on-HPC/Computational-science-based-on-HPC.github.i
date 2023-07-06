@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Physics LIB: D:/FCAI/GP/Codes/LIB/Physics_LIB/src/utils.c File Reference</title>
+<title>Computational Science Based on HPC: D:/FCAI/GP/Codes/LIB/lib/Physics_LIB/src/utils.c File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -20,8 +20,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="3.png"/></td>
   <td id="projectalign">
-   <div id="projectname">Physics LIB
+   <div id="projectname">Computational Science Based on HPC
    </div>
   </td>
  </tr>
@@ -69,11 +70,12 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_1cb414fe04fab01e4a0bd3cda6e73191.html">Physics_LIB</a></li><li class="navelem"><a class="el" href="dir_ae4a55380c7eddb4f63992d7586d65a7.html">src</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="dir_787acaf64017d5641c64393bd64682c4.html">Physics_LIB</a></li><li class="navelem"><a class="el" href="dir_da10daccb90a794bd8e6c4d7b574d851.html">src</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">utils.c File Reference</div></div>
 </div><!--header-->
@@ -87,31 +89,67 @@ $(function() {
 <code>#include &lt;unistd.h&gt;</code><br />
 <code>#include &lt;dirent.h&gt;</code><br />
 <code>#include &lt;string.h&gt;</code><br />
+<code>#include &lt;sys/sysinfo.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for utils.c:</div>
 <div class="dyncontent">
-<div class="center"><img src="utils_8c__incl.png" border="0" usemap="#a_d_1_2_f_c_a_i_2_g_p_2_codes_2_l_i_b_2_physics___l_i_b_2src_2utils_8c" alt=""/></div>
+<div class="center"><img src="utils_8c__incl.png" border="0" usemap="#a_d_1_2_f_c_a_i_2_g_p_2_codes_2_l_i_b_2lib_2_physics___l_i_b_2src_2utils_8c" alt=""/></div>
 </div>
-</div>
-<p><a href="utils_8c_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a369266c24eacffb87046522897a570d5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8c.html#a369266c24eacffb87046522897a570d5">_GNU_SOURCE</a></td></tr>
+<tr class="separator:a369266c24eacffb87046522897a570d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a1db4c3db3665c8b4c390c3aedeb6c75e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8c.html#a1db4c3db3665c8b4c390c3aedeb6c75e">cpu_inf_stream</a> ()</td></tr>
+<tr class="memdesc:a1db4c3db3665c8b4c390c3aedeb6c75e"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function prints the cpu info for the computer  <br /></td></tr>
+<tr class="separator:a1db4c3db3665c8b4c390c3aedeb6c75e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a8c7c54bec29f705c3548852c58fc05"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8c.html#a3a8c7c54bec29f705c3548852c58fc05">_valid_osc</a> (double x, double y, double length, double mass, double gravity, double k, double time_limit, double step_size, double damping_coefficent, int number_of_files, double Fo)</td></tr>
+<tr class="memdesc:a3a8c7c54bec29f705c3548852c58fc05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validate on input entered to oscillation.  <br /></td></tr>
 <tr class="separator:a3a8c7c54bec29f705c3548852c58fc05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d2ce11e76419bed045059fbf9113fea"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8c.html#a4d2ce11e76419bed045059fbf9113fea">_min_int</a> (int x, int y)</td></tr>
+<tr class="memdesc:a4d2ce11e76419bed045059fbf9113fea"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the minimum between x,y  <br /></td></tr>
 <tr class="separator:a4d2ce11e76419bed045059fbf9113fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad976eead09c5a57066d65c7f8d81aff4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8c.html#ad976eead09c5a57066d65c7f8d81aff4">_round</a> (double x)</td></tr>
+<tr class="memdesc:ad976eead09c5a57066d65c7f8d81aff4"><td class="mdescLeft">&#160;</td><td class="mdescRight">round x value to the nearest int  <br /></td></tr>
 <tr class="separator:ad976eead09c5a57066d65c7f8d81aff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b1620365d3de409f889374462d3cf53"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8c.html#a8b1620365d3de409f889374462d3cf53">_dx</a> (double dx)</td></tr>
+<tr class="memdesc:a8b1620365d3de409f889374462d3cf53"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate dx for elastic pendulum system  <br /></td></tr>
 <tr class="separator:a8b1620365d3de409f889374462d3cf53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5ad8a1874b84c85772c1e496f5b0ce8"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8c.html#ad5ad8a1874b84c85772c1e496f5b0ce8">_dy</a> (double dy)</td></tr>
+<tr class="memdesc:ad5ad8a1874b84c85772c1e496f5b0ce8"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate dy for elastic pendulum system  <br /></td></tr>
 <tr class="separator:ad5ad8a1874b84c85772c1e496f5b0ce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a862387326aafe9264ddddee4f9fcb064"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8c.html#a862387326aafe9264ddddee4f9fcb064">_f1</a> (double x, double y, double dx, double tx, double ty, double k, double m, double b, double r)</td></tr>
+<tr class="memdesc:a862387326aafe9264ddddee4f9fcb064"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate first function to solve ode in elastic pendulum  <br /></td></tr>
 <tr class="separator:a862387326aafe9264ddddee4f9fcb064"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b57fca272f5770b76a681144aff099b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8c.html#a2b57fca272f5770b76a681144aff099b">_f2</a> (double x, double y, double dy, double tx, double ty, double k, double m, double b, double r, double g)</td></tr>
+<tr class="memdesc:a2b57fca272f5770b76a681144aff099b"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculate second function to solve ode in elastic pendulum  <br /></td></tr>
 <tr class="separator:a2b57fca272f5770b76a681144aff099b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bf9ab3f9079c93b9aec6476631485ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8c.html#a9bf9ab3f9079c93b9aec6476631485ab">printmemsizestream</a> (char *str, unsigned long ramsize)</td></tr>
+<tr class="separator:a9bf9ab3f9079c93b9aec6476631485ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56431b6b701f28c3def4602ca1542c4d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8c.html#a56431b6b701f28c3def4602ca1542c4d">printmemstream</a> ()</td></tr>
+<tr class="memdesc:a56431b6b701f28c3def4602ca1542c4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">this function prints memory details for the computer  <br /></td></tr>
+<tr class="separator:a56431b6b701f28c3def4602ca1542c4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab746b3a1ae4a363bf92386fff22dfe24"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="utils_8c.html#ab746b3a1ae4a363bf92386fff22dfe24">_mkdir</a> (char *_dir_name)</td></tr>
+<tr class="separator:ab746b3a1ae4a363bf92386fff22dfe24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a369266c24eacffb87046522897a570d5" name="a369266c24eacffb87046522897a570d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a369266c24eacffb87046522897a570d5">&#9670;&#160;</a></span>_GNU_SOURCE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define _GNU_SOURCE</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a8b1620365d3de409f889374462d3cf53" name="a8b1620365d3de409f889374462d3cf53"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8b1620365d3de409f889374462d3cf53">&#9670;&#160;</a></span>_dx()</h2>
@@ -129,12 +167,14 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="utils_8c_source.html#l00044">44</a> of file <a class="el" href="utils_8c_source.html">utils.c</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="utils_8c_a8b1620365d3de409f889374462d3cf53_icgraph.png" border="0" usemap="#autils_8c_a8b1620365d3de409f889374462d3cf53_icgraph" alt=""/></div>
-</div>
+<p>calculate dx for elastic pendulum system </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dx</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -154,12 +194,14 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="utils_8c_source.html#l00050">50</a> of file <a class="el" href="utils_8c_source.html">utils.c</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="utils_8c_ad5ad8a1874b84c85772c1e496f5b0ce8_icgraph.png" border="0" usemap="#autils_8c_ad5ad8a1874b84c85772c1e496f5b0ce8_icgraph" alt=""/></div>
-</div>
+<p>calculate dy for elastic pendulum system </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dy</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -231,12 +273,22 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="utils_8c_source.html#l00056">56</a> of file <a class="el" href="utils_8c_source.html">utils.c</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="utils_8c_a862387326aafe9264ddddee4f9fcb064_icgraph.png" border="0" usemap="#autils_8c_a862387326aafe9264ddddee4f9fcb064_icgraph" alt=""/></div>
-</div>
+<p>calculate first function to solve ode in elastic pendulum </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td></td></tr>
+    <tr><td class="paramname">y</td><td></td></tr>
+    <tr><td class="paramname">dx</td><td></td></tr>
+    <tr><td class="paramname">tx</td><td></td></tr>
+    <tr><td class="paramname">ty</td><td></td></tr>
+    <tr><td class="paramname">k</td><td></td></tr>
+    <tr><td class="paramname">m</td><td></td></tr>
+    <tr><td class="paramname">b</td><td></td></tr>
+    <tr><td class="paramname">r</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -314,12 +366,23 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="utils_8c_source.html#l00064">64</a> of file <a class="el" href="utils_8c_source.html">utils.c</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="utils_8c_a2b57fca272f5770b76a681144aff099b_icgraph.png" border="0" usemap="#autils_8c_a2b57fca272f5770b76a681144aff099b_icgraph" alt=""/></div>
-</div>
+<p>calculate second function to solve ode in elastic pendulum </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td></td></tr>
+    <tr><td class="paramname">y</td><td></td></tr>
+    <tr><td class="paramname">dy</td><td></td></tr>
+    <tr><td class="paramname">tx</td><td></td></tr>
+    <tr><td class="paramname">ty</td><td></td></tr>
+    <tr><td class="paramname">k</td><td></td></tr>
+    <tr><td class="paramname">m</td><td></td></tr>
+    <tr><td class="paramname">b</td><td></td></tr>
+    <tr><td class="paramname">r</td><td></td></tr>
+    <tr><td class="paramname">g</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -349,12 +412,33 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="utils_8c_source.html#l00032">32</a> of file <a class="el" href="utils_8c_source.html">utils.c</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="utils_8c_a4d2ce11e76419bed045059fbf9113fea_icgraph.png" border="0" usemap="#autils_8c_a4d2ce11e76419bed045059fbf9113fea_icgraph" alt=""/></div>
+<p>get the minimum between x,y </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td></td></tr>
+    <tr><td class="paramname">y</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>min(x,y) </dd></dl>
+
 </div>
+</div>
+<a id="ab746b3a1ae4a363bf92386fff22dfe24" name="ab746b3a1ae4a363bf92386fff22dfe24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab746b3a1ae4a363bf92386fff22dfe24">&#9670;&#160;</a></span>_mkdir()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int _mkdir </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>_dir_name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -374,12 +458,14 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="utils_8c_source.html#l00038">38</a> of file <a class="el" href="utils_8c_source.html">utils.c</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="utils_8c_ad976eead09c5a57066d65c7f8d81aff4_icgraph.png" border="0" usemap="#autils_8c_ad976eead09c5a57066d65c7f8d81aff4_icgraph" alt=""/></div>
-</div>
+<p>round x value to the nearest int </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>rounded x </dd></dl>
 
 </div>
 </div>
@@ -463,19 +549,151 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="utils_8c_source.html#l00015">15</a> of file <a class="el" href="utils_8c_source.html">utils.c</a>.</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="utils_8c_a3a8c7c54bec29f705c3548852c58fc05_icgraph.png" border="0" usemap="#autils_8c_a3a8c7c54bec29f705c3548852c58fc05_icgraph" alt=""/></div>
+<p>Validate on input entered to oscillation. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>distance x </td></tr>
+    <tr><td class="paramname">y</td><td>distance y </td></tr>
+    <tr><td class="paramname">length</td><td>max length </td></tr>
+    <tr><td class="paramname">mass</td><td>mass of bob </td></tr>
+    <tr><td class="paramname">gravity</td><td></td></tr>
+    <tr><td class="paramname">k</td><td>stiffeness of spring </td></tr>
+    <tr><td class="paramname">time_limit</td><td>how much time needed to simulate </td></tr>
+    <tr><td class="paramname">step_size</td><td>how much time change per iteration </td></tr>
+    <tr><td class="paramname">damping_coefficent</td><td>damping factor affecting on the system </td></tr>
+    <tr><td class="paramname">number_of_files</td><td></td></tr>
+    <tr><td class="paramname">Fo</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>1 if all are valid, 0 if [mass &lt; 0 || k &lt; 0 || time_limit &lt;= 0 || step_size &lt; 0 || length &lt;= 0 || gravity &lt;= 0 || damping_coefficent &lt; 0], and -1 if max_length &gt; length </dd></dl>
+
 </div>
+</div>
+<a id="a1db4c3db3665c8b4c390c3aedeb6c75e" name="a1db4c3db3665c8b4c390c3aedeb6c75e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1db4c3db3665c8b4c390c3aedeb6c75e">&#9670;&#160;</a></span>cpu_inf_stream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int cpu_inf_stream </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>this function prints the cpu info for the computer </p>
+<dl class="section return"><dt>Returns</dt><dd>int </dd></dl>
+
+</div>
+</div>
+<a id="a9bf9ab3f9079c93b9aec6476631485ab" name="a9bf9ab3f9079c93b9aec6476631485ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bf9ab3f9079c93b9aec6476631485ab">&#9670;&#160;</a></span>printmemsizestream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void printmemsizestream </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned long&#160;</td>
+          <td class="paramname"><em>ramsize</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a56431b6b701f28c3def4602ca1542c4d" name="a56431b6b701f28c3def4602ca1542c4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56431b6b701f28c3def4602ca1542c4d">&#9670;&#160;</a></span>printmemstream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int printmemstream </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>this function prints memory details for the computer </p>
+<dl class="section return"><dt>Returns</dt><dd>int </dd></dl>
 
 </div>
 </div>
 </div><!-- contents -->
-<!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.7
-</small></address>
-</body>
-</html>
+<style>
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+  }
+  main {
+    flex: 1;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+  }
+  .project-details {
+    flex: 1;
+  }
+  .contributors {
+    flex: 1;
+  }
+  .contributors ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  .contributors ul li {
+    margin-bottom: 5px;
+  }
+</style>
+  <footer>
+    <div class="footer-content">
+      <div class="project-details">
+        <h3>Graduation Project</h3>
+        <h4>Computational Science based on HPC</h4>
+        <p>FCAI Cairo University, Computer Science Section.</p>
+		<p>Supervised by: DR.Ahmed Shawky</p>
+      </div>
+      <div class="contributors">
+        <h3>Contributed by:</h3>
+        <ul>
+          <li>Jonathan Saad</li>
+          <li>Habeba Rabie</li>
+          <li>Phoebe George</li>
+          <li>Andrew Naseif</li>
+          <li>David Ayman</li>
+        </ul>
+      </div>
+    </div>
+  </footer>

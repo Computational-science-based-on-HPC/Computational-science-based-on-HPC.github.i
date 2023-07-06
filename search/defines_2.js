@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['threads_0',['THREADS',['../thermopara_8c.html#a2fcfdf60d28725b11b5a3539d3acd0d4',1,'thermopara.c']]]
+  ['num_5fthreads_0',['NUM_THREADS',['../oscpara_8c.html#a7735206bdfad487588bba2126b806ab7',1,'oscpara.c']]]
 ];
