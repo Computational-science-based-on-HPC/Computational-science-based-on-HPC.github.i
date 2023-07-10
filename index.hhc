@@ -4,16 +4,18 @@
 <param name="FrameName" value="right">
 </OBJECT>
 <UL>
-<LI><OBJECT type="text/sitemap"><param name="Name" value="Physics LIB&lt;a name=&quot;TOP&quot;&gt;&lt;/a&gt;"><param name="Local" value="index.html"><param name="ImageNumber" value="1"></OBJECT>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Physics LIB&lt;a name=&quot;TOP&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://github.com/Computational-science-based-on-HPC/Physics_LIB/blob/master/LICENSE&quot; &gt;&lt;img src=&quot;https://img.shields.io/badge/License-MIT-yellow.svg&quot; alt=&quot;License: MIT&quot;/&gt;&lt;/a&gt;"><param name="Local" value="index.html"><param name="ImageNumber" value="1"></OBJECT>
   <UL>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="Description"><param name="Local" value="index.html#autotoc_md0"><param name="ImageNumber" value="11"></OBJECT>
-  <LI><OBJECT type="text/sitemap"><param name="Name" value="Simulations"><param name="Local" value="index.html#autotoc_md1"><param name="ImageNumber" value="1"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Features"><param name="Local" value="index.html#autotoc_md0"><param name="ImageNumber" value="1"></OBJECT>
     <UL>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="1- Damped spring motion"><param name="Local" value="index.html#autotoc_md2"><param name="ImageNumber" value="11"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="2- Elastic Pendulum"><param name="Local" value="index.html#autotoc_md3"><param name="ImageNumber" value="11"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="3- 1D Heat Equation"><param name="Local" value="index.html#autotoc_md4"><param name="ImageNumber" value="11"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="4- 2D Heat Equation"><param name="Local" value="index.html#autotoc_md5"><param name="ImageNumber" value="11"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="1- Damped spring motion"><param name="Local" value="index.html#autotoc_md1"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="2- Elastic Pendulum"><param name="Local" value="index.html#autotoc_md2"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="3- 1D Heat Equation"><param name="Local" value="index.html#autotoc_md3"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="4- 2D Heat Equation"><param name="Local" value="index.html#autotoc_md4"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
     </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Technologies and Tools Used"><param name="Local" value="index.html#autotoc_md5"><param name="ImageNumber" value="11"></OBJECT>
   <LI><OBJECT type="text/sitemap"><param name="Name" value="Dynamic Library"><param name="Local" value="index.html#autotoc_md6"><param name="ImageNumber" value="1"></OBJECT>
     <UL>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="Installation"><param name="Local" value="index.html#autotoc_md7"><param name="ImageNumber" value="11"></OBJECT>
@@ -23,7 +25,14 @@
     <UL>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="Installation"><param name="Local" value="index.html#autotoc_md10"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="Compilation and Run"><param name="Local" value="index.html#autotoc_md11"><param name="ImageNumber" value="11"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="Links"><param name="Local" value="index.html#autotoc_md12"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Heat Equation 1D"><param name="Local" value="index.html#autotoc_md12"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Heat Equation 2D"><param name="Local" value="index.html#autotoc_md13"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Damped Oscillation"><param name="Local" value="index.html#autotoc_md14"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Contribution"><param name="Local" value="index.html#autotoc_md15"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="License"><param name="Local" value="index.html#autotoc_md16"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Links"><param name="Local" value="index.html#autotoc_md17"><param name="ImageNumber" value="11"></OBJECT>
     </UL>
   </UL>
 <LI><OBJECT type="text/sitemap"><param name="Name" value="Files"><param name="Local" value="files.html"><param name="ImageNumber" value="1"></OBJECT>

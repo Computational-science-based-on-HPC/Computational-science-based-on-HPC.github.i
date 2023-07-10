@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.7"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Computational Science Based on HPC: Physics LIB&lt;a name=&quot;TOP&quot;&gt;&lt;/a&gt;</title>
+<title>Computational Science Based on HPC: Physics LIB&lt;a name=&quot;TOP&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://github.com/Computational-science-based-on-HPC/Physics_LIB/blob/master/LICENSE&quot; &gt;&lt;img src=&quot;https://img.shields.io/badge/License-MIT-yellow.svg&quot; alt=&quot;License: MIT&quot;/&gt;&lt;/a&gt;</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -36,41 +36,47 @@
   </div>
 </div><!-- top -->
 <div><div class="header">
-  <div class="headertitle"><div class="title">Physics LIB<a class="anchor" id="TOP"></a> </div></div>
+  <div class="headertitle"><div class="title">Physics LIB<a class="anchor" id="TOP"></a><br  />
+<a href="https://github.com/Computational-science-based-on-HPC/Physics_LIB/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT" style="pointer-events: none;" class="inline"/></a> </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="md__d_1_2_f_c_a_i_2_g_p_2_codes_2_l_i_b_2_physics___l_i_b_2_r_e_a_d_m_e"></a></p>
-<hr  />
+<div class="textblock"><p><a class="anchor" id="md__d_1_2_f_c_a_i_2_g_p_2_codes_2_l_i_b_2lib_2_physics___l_i_b_2_r_e_a_d_m_e"></a></p>
+<p>This Repository Contains <b>Physics LIB</b>, a physics library that simulates various physics calculations as <em>parallelelized</em> and <em>seriallized</em> implementations to obtain optimal performance and results. </p><hr  />
  <h1><a class="anchor" id="autotoc_md0"></a>
-Description</h1>
-<p><b>Physics LIB</b> is a physics library that simulates various physics calculations as <em>parallelelized</em> and <em>seriallized</em> implementations to obtain optimal performance and results. </p><hr  />
- <h1><a class="anchor" id="autotoc_md1"></a>
-Simulations</h1>
-<h2><a class="anchor" id="autotoc_md2"></a>
-1- Damped spring motion</h2>
+Features</h1>
+<h3><a class="anchor" id="autotoc_md1"></a>
+1- Damped spring motion</h3>
 <ul>
 <li><em>Damped Spring Motion</em> is a <b>simple harmonic motion</b> that simulates the motion of a mass attached to a spring and oscillates in a y-axis direction with given parameters that the user specifies like mass and stiffness of spring.</li>
 <li>This simulation is implemented in both parallel and serial implementations. </li>
 </ul>
-<h2><a class="anchor" id="autotoc_md3"></a>
-2- Elastic Pendulum</h2>
+<h3><a class="anchor" id="autotoc_md2"></a>
+2- Elastic Pendulum</h3>
 <ul>
 <li><em>Elastic pendulum/pendulum spring / swinging spring system</em> is a system where it simulates the motion of 2D-spring in both directions y-axis and x-axis = given parameters that the user specifies like mass and stiffness of spring.</li>
 <li>Due to the chaotic motion of this system and its dependencies its algorithm is implemented in serial algorithm only. </li>
 </ul>
-<h2><a class="anchor" id="autotoc_md4"></a>
-3- 1D Heat Equation</h2>
+<h3><a class="anchor" id="autotoc_md3"></a>
+3- 1D Heat Equation</h3>
 <ul>
-<li>Heat Equation is an equation where it simulates the change of heat in body isolated from outer world and isn't affected by any other heat or cooling source.</li>
+<li>Heat Equation is an equation where it simulates the change of heat in the body isolated from the outer world and isn't affected by any other heat or cooling source.</li>
 <li>In this simulation, we simulate heat propagation in a 1D body as <em>wire</em> and the change in its temperature over time using Fourier transform.</li>
 <li>This simulation is implemented as a serial and parallel program. </li>
 </ul>
-<h2><a class="anchor" id="autotoc_md5"></a>
-4- 2D Heat Equation</h2>
+<h3><a class="anchor" id="autotoc_md4"></a>
+4- 2D Heat Equation</h3>
 <ul>
-<li>Heat Equation is an equation where it simulates the change of heat in body isolated from outer world and isn't affected by any other heat or cooling source.</li>
-<li>In this simulation, we simulate heat propagation in a 2D body as <em>cpu</em> as square or rectangle and the change in its tempreture over time using Fourier transform.</li>
+<li>Heat Equation is an equation where it simulates the change of heat in the body isolated from the outer world and isn't affected by any other heat or cooling source.</li>
+<li>In this simulation, we simulate heat propagation in a 2D body as <em>cpu</em> as square or rectangle and the change in its temperature over time using Fourier transform.</li>
 <li>This simulation is implemented as a serial and parallel program. <hr  />
+ </li>
+</ul>
+<h1><a class="anchor" id="autotoc_md5"></a>
+Technologies and Tools Used</h1>
+<ul>
+<li>Programming Language: C</li>
+<li>Parallel Computing: MPI, OpenMP</li>
+<li>Build: Make <hr  />
  </li>
 </ul>
 <h1><a class="anchor" id="autotoc_md6"></a>
@@ -81,14 +87,14 @@ Installation</h2>
 <div class="line">sudo make install</div>
 <div class="line">make clean</div>
 </div><!-- fragment --><p> <br  />
- To include in environment path: </p><div class="fragment"><div class="line">sudo ldconfig</div>
+ To include in the environment path: </p><div class="fragment"><div class="line">sudo ldconfig</div>
 <div class="line">echo $LD_LIBRARY_PATH</div>
-</div><!-- fragment --><p> If couldn't find the library location listed then create new environment variable: </p><div class="fragment"><div class="line">export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATHD</div>
-</div><!-- fragment --><p> Now it been added to environment variables to be sure: </p><div class="fragment"><div class="line">echo $LD_LIBRARY_PATH</div>
-</div><!-- fragment --><p> Make sure it been listed. </p>
+</div><!-- fragment --><p> If couldn't find the library location listed then create a new environment variable: </p><div class="fragment"><div class="line">export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATHD</div>
+</div><!-- fragment --><p> Now it has been added to environment variables to be sure: </p><div class="fragment"><div class="line">echo $LD_LIBRARY_PATH</div>
+</div><!-- fragment --><p> Make sure it has been listed. </p>
 <h2><a class="anchor" id="autotoc_md8"></a>
 Compilation and Run</h2>
-<div class="fragment"><div class="line">mpicc -o myprogram main.c -L/usr/local/lib/ -lphysics -fopenmp</div>
+<div class="fragment"><div class="line">mpicc -o myprogram main.c -lphysics -fopenmp</div>
 <div class="line">mpiexec -n 4 ./myprogram</div>
 </div><!-- fragment --><p> <br  />
  </p><hr  />
@@ -108,6 +114,24 @@ Compilation and Run</h2>
 </div><!-- fragment --><p> <br  />
  </p><hr  />
  <h2><a class="anchor" id="autotoc_md12"></a>
+Heat Equation 1D</h2>
+<p>The following graph represents the execution time of the <em>Heat Equation 1D</em> algorithm via different implementations (MPI, OpenMP, Serial) and the change of it when changing the <b>Precision</b> _(number of iterations)_.</p>
+<p><img src="https://raw.githubusercontent.com/Computational-science-based-on-HPC/Physics_LIB/master/graphs/heat1d%20Graph.png" alt="Heat Equation 1D" class="inline"/> </p>
+<h2><a class="anchor" id="autotoc_md13"></a>
+Heat Equation 2D</h2>
+<p>The following graph represents the execution time of the <em>Heat Equation 2D</em> algorithm via different implementations (MPI, OpenMP, Serial) and the change of it when changing the <b>Precision</b> _(number of iterations)_.</p>
+<p><img src="https://raw.githubusercontent.com/Computational-science-based-on-HPC/Physics_LIB/master/graphs/Heat%202d%20Graph.png" alt="Heat Equation 2D graph" class="inline"/> </p>
+<h2><a class="anchor" id="autotoc_md14"></a>
+Damped Oscillation</h2>
+<p>The following graph represents the execution time of the <em>Damped Oscillation Simulation</em> algorithm via different implementations (MPI, OpenMP, Serial) and the change of it when changing the <b>Time Limit</b> _(number of iterations)_, and discusses the execution time of the simulation when false sharing occurred.</p>
+<p><img src="https://raw.githubusercontent.com/Computational-science-based-on-HPC/Physics_LIB/master/graphs/DampedOSC%20Graph.png" alt="Damped Oscillation Graph" class="inline"/> </p><hr  />
+ <h1><a class="anchor" id="autotoc_md15"></a>
+Contribution</h1>
+<p>Contributions to the PhysicsLIB project are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request. Please ensure that your contributions adhere to the Contributor Covenant and that you follow the project's style guide. </p>
+<h1><a class="anchor" id="autotoc_md16"></a>
+License</h1>
+<p>This project is licensed under the <a href="https://github.com/Computational-science-based-on-HPC/Physics_LIB/blob/master/LICENSE">MIT License</a>. </p>
+<h2><a class="anchor" id="autotoc_md17"></a>
 Links</h2>
 <ul>
 <li><a href="https://Computational-science-based-on-HPC.github.io/index.html">Documentation</a></li>
